@@ -1,0 +1,4022 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Mar 29 2023 12:34:11
+gem5 started Mar 29 2023 12:35:46
+gem5 executing on adwaith-HP-ProDesk-600-G5-PCI-MT, pid 53527
+command line: build/X86/gem5.opt configs/example/garnet_synth_traffic.py --num-cpus=64 --num-dirs=64 --network=garnet --topology=Mesh_XY --routing-algorithm=1 --mesh-rows=8 --injectionrate=0.01 --sim-cycles=500000
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=1 PacketId=0 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=5 Src Router=5 Dest NI=75 Dest Router=11 Set Time=3500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=2 PacketId=1 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=49 Src Router=49 Dest NI=112 Dest Router=48 Set Time=5500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=3 PacketId=2 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=33 Src Router=33 Dest NI=70 Dest Router=6 Set Time=5500 Width=16 ]
+
+
+
+[flit:: Flit_ID=4 PacketId=2 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=33 Src Router=33 Dest NI=70 Dest Router=6 Set Time=5500 Width=16 ]
+
+
+
+[flit:: Flit_ID=5 PacketId=2 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=33 Src Router=33 Dest NI=70 Dest Router=6 Set Time=5500 Width=16 ]
+
+
+
+[flit:: Flit_ID=6 PacketId=2 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=33 Src Router=33 Dest NI=70 Dest Router=6 Set Time=5500 Width=16 ]
+
+
+
+[flit:: Flit_ID=7 PacketId=2 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=33 Src Router=33 Dest NI=70 Dest Router=6 Set Time=5500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=8 PacketId=3 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=52 Src Router=52 Dest NI=122 Dest Router=58 Set Time=6500 Width=16 ]
+
+Flit ID = 1 ; Src = 5 ; Dest = 11 ; Path = 5 --> 4 --> 3 --> 11
+Flit ID = 2 ; Src = 49 ; Dest = 48 ; Path = 49 --> 48
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=9 PacketId=4 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=56 Src Router=56 Dest NI=95 Dest Router=31 Set Time=9500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=10 PacketId=5 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=44 Src Router=44 Dest NI=82 Dest Router=18 Set Time=10500 Width=16 ]
+
+
+
+[flit:: Flit_ID=11 PacketId=5 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=44 Src Router=44 Dest NI=82 Dest Router=18 Set Time=10500 Width=16 ]
+
+
+
+[flit:: Flit_ID=12 PacketId=5 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=44 Src Router=44 Dest NI=82 Dest Router=18 Set Time=10500 Width=16 ]
+
+
+
+[flit:: Flit_ID=13 PacketId=5 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=44 Src Router=44 Dest NI=82 Dest Router=18 Set Time=10500 Width=16 ]
+
+
+
+[flit:: Flit_ID=14 PacketId=5 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=44 Src Router=44 Dest NI=82 Dest Router=18 Set Time=10500 Width=16 ]
+
+Flit ID = 8 ; Src = 52 ; Dest = 58 ; Path = 52 --> 51 --> 50 --> 58
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=15 PacketId=6 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=5 Src Router=5 Dest NI=85 Dest Router=21 Set Time=15500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=16 PacketId=7 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=24 Src Router=24 Dest NI=99 Dest Router=35 Set Time=16500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=17 PacketId=8 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=18500 Width=16 ]
+
+
+
+[flit:: Flit_ID=18 PacketId=8 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=18500 Width=16 ]
+
+
+
+[flit:: Flit_ID=19 PacketId=8 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=18500 Width=16 ]
+
+
+
+[flit:: Flit_ID=20 PacketId=8 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=18500 Width=16 ]
+
+
+
+[flit:: Flit_ID=21 PacketId=8 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=18500 Width=16 ]
+
+Flit ID = 7 ; Src = 33 ; Dest = 6 ; Path = 33 --> 34 --> 35 --> 36 --> 37 --> 38 --> 30 --> 22 --> 14 --> 6
+Flit ID = 15 ; Src = 5 ; Dest = 21 ; Path = 5 --> 13 --> 21
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=22 PacketId=9 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=19500 Width=16 ]
+
+
+
+[flit:: Flit_ID=23 PacketId=9 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=19500 Width=16 ]
+
+
+
+[flit:: Flit_ID=24 PacketId=9 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=19500 Width=16 ]
+
+
+
+[flit:: Flit_ID=25 PacketId=9 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=19500 Width=16 ]
+
+
+
+[flit:: Flit_ID=26 PacketId=9 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=19500 Width=16 ]
+
+Flit ID = 14 ; Src = 44 ; Dest = 18 ; Path = 44 --> 43 --> 42 --> 34 --> 26 --> 18
+Flit ID = 9 ; Src = 56 ; Dest = 31 ; Path = 56 --> 57 --> 58 --> 59 --> 60 --> 61 --> 62 --> 63 --> 55 --> 47 --> 39 --> 31
+Flit ID = 16 ; Src = 24 ; Dest = 35 ; Path = 24 --> 25 --> 26 --> 27 --> 35
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=27 PacketId=10 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=18 Src Router=18 Dest NI=113 Dest Router=49 Set Time=22500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=28 PacketId=11 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=47 Src Router=47 Dest NI=96 Dest Router=32 Set Time=24500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=29 PacketId=12 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=9 Src Router=9 Dest NI=120 Dest Router=56 Set Time=25500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=30 PacketId=13 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=24 Src Router=24 Dest NI=126 Dest Router=62 Set Time=26500 Width=16 ]
+
+
+
+[flit:: Flit_ID=31 PacketId=13 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=24 Src Router=24 Dest NI=126 Dest Router=62 Set Time=26500 Width=16 ]
+
+
+
+[flit:: Flit_ID=32 PacketId=13 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=24 Src Router=24 Dest NI=126 Dest Router=62 Set Time=26500 Width=16 ]
+
+
+
+[flit:: Flit_ID=33 PacketId=13 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=24 Src Router=24 Dest NI=126 Dest Router=62 Set Time=26500 Width=16 ]
+
+
+
+[flit:: Flit_ID=34 PacketId=13 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=24 Src Router=24 Dest NI=126 Dest Router=62 Set Time=26500 Width=16 ]
+
+Flit ID = 27 ; Src = 18 ; Dest = 49 ; Path = 18 --> 17 --> 25 --> 33 --> 41 --> 49
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=35 PacketId=14 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=24 Src Router=24 Dest NI=103 Dest Router=39 Set Time=29500 Width=16 ]
+
+
+
+[flit:: Flit_ID=36 PacketId=14 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=24 Src Router=24 Dest NI=103 Dest Router=39 Set Time=29500 Width=16 ]
+
+
+
+[flit:: Flit_ID=37 PacketId=14 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=24 Src Router=24 Dest NI=103 Dest Router=39 Set Time=29500 Width=16 ]
+
+
+
+[flit:: Flit_ID=38 PacketId=14 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=24 Src Router=24 Dest NI=103 Dest Router=39 Set Time=29500 Width=16 ]
+
+
+
+[flit:: Flit_ID=39 PacketId=14 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=24 Src Router=24 Dest NI=103 Dest Router=39 Set Time=29500 Width=16 ]
+
+Flit ID = 26 ; Src = 17 ; Dest = 23 ; Path = 17 --> 18 --> 19 --> 20 --> 21 --> 22 --> 23
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=40 PacketId=15 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=1 Src Router=1 Dest NI=104 Dest Router=40 Set Time=30500 Width=16 ]
+
+Flit ID = 21 ; Src = 30 ; Dest = 8 ; Path = 30 --> 29 --> 28 --> 27 --> 26 --> 25 --> 24 --> 16 --> 8
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=41 PacketId=16 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=23 Src Router=23 Dest NI=78 Dest Router=14 Set Time=32500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=42 PacketId=17 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=28 Src Router=28 Dest NI=94 Dest Router=30 Set Time=32500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=43 PacketId=18 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=31 Src Router=31 Dest NI=125 Dest Router=61 Set Time=32500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=44 PacketId=19 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=63 Src Router=63 Dest NI=120 Dest Router=56 Set Time=33500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=45 PacketId=20 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=16 Src Router=16 Dest NI=91 Dest Router=27 Set Time=33500 Width=16 ]
+
+
+
+[flit:: Flit_ID=46 PacketId=20 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=16 Src Router=16 Dest NI=91 Dest Router=27 Set Time=33500 Width=16 ]
+
+
+
+[flit:: Flit_ID=47 PacketId=20 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=16 Src Router=16 Dest NI=91 Dest Router=27 Set Time=33500 Width=16 ]
+
+
+
+[flit:: Flit_ID=48 PacketId=20 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=16 Src Router=16 Dest NI=91 Dest Router=27 Set Time=33500 Width=16 ]
+
+
+
+[flit:: Flit_ID=49 PacketId=20 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=16 Src Router=16 Dest NI=91 Dest Router=27 Set Time=33500 Width=16 ]
+
+Flit ID = 29 ; Src = 9 ; Dest = 56 ; Path = 9 --> 8 --> 16 --> 24 --> 32 --> 40 --> 48 --> 56
+Flit ID = 28 ; Src = 47 ; Dest = 32 ; Path = 47 --> 46 --> 45 --> 44 --> 43 --> 42 --> 41 --> 40 --> 32
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=50 PacketId=21 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=61 Src Router=61 Dest NI=111 Dest Router=47 Set Time=34500 Width=16 ]
+
+
+
+[flit:: Flit_ID=51 PacketId=21 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=61 Src Router=61 Dest NI=111 Dest Router=47 Set Time=34500 Width=16 ]
+
+
+
+[flit:: Flit_ID=52 PacketId=21 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=61 Src Router=61 Dest NI=111 Dest Router=47 Set Time=34500 Width=16 ]
+
+
+
+[flit:: Flit_ID=53 PacketId=21 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=61 Src Router=61 Dest NI=111 Dest Router=47 Set Time=34500 Width=16 ]
+
+
+
+[flit:: Flit_ID=54 PacketId=21 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=61 Src Router=61 Dest NI=111 Dest Router=47 Set Time=34500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=55 PacketId=22 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=40 Src Router=40 Dest NI=104 Dest Router=40 Set Time=35500 Width=16 ]
+
+
+
+[flit:: Flit_ID=56 PacketId=22 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=40 Src Router=40 Dest NI=104 Dest Router=40 Set Time=35500 Width=16 ]
+
+
+
+[flit:: Flit_ID=57 PacketId=22 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=40 Src Router=40 Dest NI=104 Dest Router=40 Set Time=35500 Width=16 ]
+
+
+
+[flit:: Flit_ID=58 PacketId=22 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=40 Src Router=40 Dest NI=104 Dest Router=40 Set Time=35500 Width=16 ]
+
+
+
+[flit:: Flit_ID=59 PacketId=22 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=40 Src Router=40 Dest NI=104 Dest Router=40 Set Time=35500 Width=16 ]
+
+Flit ID = 42 ; Src = 28 ; Dest = 30 ; Path = 28 --> 29 --> 30
+Flit ID = 41 ; Src = 23 ; Dest = 14 ; Path = 23 --> 22 --> 14
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=60 PacketId=23 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=32 Src Router=32 Dest NI=126 Dest Router=62 Set Time=37500 Width=16 ]
+
+Flit ID = 40 ; Src = 1 ; Dest = 40 ; Path = 1 --> 0 --> 8 --> 16 --> 24 --> 32 --> 40
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=61 PacketId=24 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=52 Src Router=52 Dest NI=111 Dest Router=47 Set Time=38500 Width=16 ]
+
+
+
+[flit:: Flit_ID=62 PacketId=24 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=52 Src Router=52 Dest NI=111 Dest Router=47 Set Time=38500 Width=16 ]
+
+
+
+[flit:: Flit_ID=63 PacketId=24 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=52 Src Router=52 Dest NI=111 Dest Router=47 Set Time=38500 Width=16 ]
+
+
+
+[flit:: Flit_ID=64 PacketId=24 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=52 Src Router=52 Dest NI=111 Dest Router=47 Set Time=38500 Width=16 ]
+
+
+
+[flit:: Flit_ID=65 PacketId=24 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=52 Src Router=52 Dest NI=111 Dest Router=47 Set Time=38500 Width=16 ]
+
+Flit ID = 59 ; Src = 40 ; Dest = 40 ; Path = 40
+Flit ID = 43 ; Src = 31 ; Dest = 61 ; Path = 31 --> 30 --> 29 --> 37 --> 45 --> 53 --> 61
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=66 PacketId=25 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=18 Src Router=18 Dest NI=104 Dest Router=40 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=67 PacketId=25 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=18 Src Router=18 Dest NI=104 Dest Router=40 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=68 PacketId=25 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=18 Src Router=18 Dest NI=104 Dest Router=40 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=69 PacketId=25 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=18 Src Router=18 Dest NI=104 Dest Router=40 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=70 PacketId=25 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=18 Src Router=18 Dest NI=104 Dest Router=40 Set Time=40500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=71 PacketId=26 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=25 Src Router=25 Dest NI=89 Dest Router=25 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=72 PacketId=26 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=25 Src Router=25 Dest NI=89 Dest Router=25 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=73 PacketId=26 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=25 Src Router=25 Dest NI=89 Dest Router=25 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=74 PacketId=26 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=25 Src Router=25 Dest NI=89 Dest Router=25 Set Time=40500 Width=16 ]
+
+
+
+[flit:: Flit_ID=75 PacketId=26 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=25 Src Router=25 Dest NI=89 Dest Router=25 Set Time=40500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=76 PacketId=27 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=39 Src Router=39 Dest NI=90 Dest Router=26 Set Time=40500 Width=16 ]
+
+Flit ID = 34 ; Src = 24 ; Dest = 62 ; Path = 24 --> 25 --> 26 --> 27 --> 28 --> 29 --> 30 --> 38 --> 46 --> 54 --> 62
+Flit ID = 39 ; Src = 24 ; Dest = 39 ; Path = 24 --> 25 --> 26 --> 27 --> 28 --> 29 --> 30 --> 31 --> 39
+Flit ID = 49 ; Src = 16 ; Dest = 27 ; Path = 16 --> 17 --> 18 --> 19 --> 27
+Flit ID = 44 ; Src = 63 ; Dest = 56 ; Path = 63 --> 62 --> 61 --> 60 --> 59 --> 58 --> 57 --> 56
+Flit ID = 54 ; Src = 61 ; Dest = 47 ; Path = 61 --> 62 --> 63 --> 55 --> 47
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=77 PacketId=28 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=35 Src Router=35 Dest NI=89 Dest Router=25 Set Time=44500 Width=16 ]
+
+Flit ID = 75 ; Src = 25 ; Dest = 25 ; Path = 25
+Flit ID = 65 ; Src = 52 ; Dest = 47 ; Path = 52 --> 53 --> 54 --> 55 --> 47
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=78 PacketId=29 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=15 Src Router=15 Dest NI=65 Dest Router=1 Set Time=47500 Width=16 ]
+
+
+
+[flit:: Flit_ID=79 PacketId=29 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=15 Src Router=15 Dest NI=65 Dest Router=1 Set Time=47500 Width=16 ]
+
+
+
+[flit:: Flit_ID=80 PacketId=29 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=15 Src Router=15 Dest NI=65 Dest Router=1 Set Time=47500 Width=16 ]
+
+
+
+[flit:: Flit_ID=81 PacketId=29 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=15 Src Router=15 Dest NI=65 Dest Router=1 Set Time=47500 Width=16 ]
+
+
+
+[flit:: Flit_ID=82 PacketId=29 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=15 Src Router=15 Dest NI=65 Dest Router=1 Set Time=47500 Width=16 ]
+
+Flit ID = 60 ; Src = 32 ; Dest = 62 ; Path = 32 --> 33 --> 34 --> 35 --> 36 --> 37 --> 38 --> 46 --> 54 --> 62
+Flit ID = 76 ; Src = 39 ; Dest = 26 ; Path = 39 --> 38 --> 37 --> 36 --> 35 --> 34 --> 26
+Flit ID = 77 ; Src = 35 ; Dest = 25 ; Path = 35 --> 34 --> 33 --> 25
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=83 PacketId=30 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=56 Src Router=56 Dest NI=86 Dest Router=22 Set Time=49500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=84 PacketId=31 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=29 Src Router=29 Dest NI=114 Dest Router=50 Set Time=49500 Width=16 ]
+
+Flit ID = 70 ; Src = 18 ; Dest = 40 ; Path = 18 --> 17 --> 16 --> 24 --> 32 --> 40
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=85 PacketId=32 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=55 Src Router=55 Dest NI=103 Dest Router=39 Set Time=52500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=86 PacketId=33 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=63 Src Router=63 Dest NI=105 Dest Router=41 Set Time=52500 Width=16 ]
+
+
+
+[flit:: Flit_ID=87 PacketId=33 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=63 Src Router=63 Dest NI=105 Dest Router=41 Set Time=52500 Width=16 ]
+
+
+
+[flit:: Flit_ID=88 PacketId=33 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=63 Src Router=63 Dest NI=105 Dest Router=41 Set Time=52500 Width=16 ]
+
+
+
+[flit:: Flit_ID=89 PacketId=33 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=63 Src Router=63 Dest NI=105 Dest Router=41 Set Time=52500 Width=16 ]
+
+
+
+[flit:: Flit_ID=90 PacketId=33 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=63 Src Router=63 Dest NI=105 Dest Router=41 Set Time=52500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=91 PacketId=34 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=53500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=92 PacketId=35 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=19 Src Router=19 Dest NI=114 Dest Router=50 Set Time=53500 Width=16 ]
+
+
+
+[flit:: Flit_ID=93 PacketId=35 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=19 Src Router=19 Dest NI=114 Dest Router=50 Set Time=53500 Width=16 ]
+
+
+
+[flit:: Flit_ID=94 PacketId=35 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=19 Src Router=19 Dest NI=114 Dest Router=50 Set Time=53500 Width=16 ]
+
+
+
+[flit:: Flit_ID=95 PacketId=35 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=19 Src Router=19 Dest NI=114 Dest Router=50 Set Time=53500 Width=16 ]
+
+
+
+[flit:: Flit_ID=96 PacketId=35 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=19 Src Router=19 Dest NI=114 Dest Router=50 Set Time=53500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=97 PacketId=36 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=19 Src Router=19 Dest NI=106 Dest Router=42 Set Time=54500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=98 PacketId=37 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=46 Src Router=46 Dest NI=77 Dest Router=13 Set Time=54500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=99 PacketId=38 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=52 Src Router=52 Dest NI=92 Dest Router=28 Set Time=54500 Width=16 ]
+
+
+
+[flit:: Flit_ID=100 PacketId=38 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=52 Src Router=52 Dest NI=92 Dest Router=28 Set Time=54500 Width=16 ]
+
+
+
+[flit:: Flit_ID=101 PacketId=38 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=52 Src Router=52 Dest NI=92 Dest Router=28 Set Time=54500 Width=16 ]
+
+
+
+[flit:: Flit_ID=102 PacketId=38 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=52 Src Router=52 Dest NI=92 Dest Router=28 Set Time=54500 Width=16 ]
+
+
+
+[flit:: Flit_ID=103 PacketId=38 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=52 Src Router=52 Dest NI=92 Dest Router=28 Set Time=54500 Width=16 ]
+
+Flit ID = 85 ; Src = 55 ; Dest = 39 ; Path = 55 --> 47 --> 39
+Flit ID = 84 ; Src = 29 ; Dest = 50 ; Path = 29 --> 28 --> 27 --> 26 --> 34 --> 42 --> 50
+Flit ID = 82 ; Src = 15 ; Dest = 1 ; Path = 15 --> 14 --> 13 --> 12 --> 11 --> 10 --> 9 --> 1
+Flit ID = 97 ; Src = 19 ; Dest = 42 ; Path = 19 --> 18 --> 26 --> 34 --> 42
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=104 PacketId=39 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=28 Src Router=28 Dest NI=107 Dest Router=43 Set Time=60500 Width=16 ]
+
+Flit ID = 98 ; Src = 46 ; Dest = 13 ; Path = 46 --> 45 --> 37 --> 29 --> 21 --> 13
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=105 PacketId=40 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=27 Src Router=27 Dest NI=68 Dest Router=4 Set Time=61500 Width=16 ]
+
+
+
+[flit:: Flit_ID=106 PacketId=40 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=27 Src Router=27 Dest NI=68 Dest Router=4 Set Time=61500 Width=16 ]
+
+
+
+[flit:: Flit_ID=107 PacketId=40 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=27 Src Router=27 Dest NI=68 Dest Router=4 Set Time=61500 Width=16 ]
+
+
+
+[flit:: Flit_ID=108 PacketId=40 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=27 Src Router=27 Dest NI=68 Dest Router=4 Set Time=61500 Width=16 ]
+
+
+
+[flit:: Flit_ID=109 PacketId=40 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=27 Src Router=27 Dest NI=68 Dest Router=4 Set Time=61500 Width=16 ]
+
+Flit ID = 103 ; Src = 52 ; Dest = 28 ; Path = 52 --> 44 --> 36 --> 28
+Flit ID = 83 ; Src = 56 ; Dest = 22 ; Path = 56 --> 57 --> 58 --> 59 --> 60 --> 61 --> 62 --> 54 --> 46 --> 38 --> 30 --> 22
+Flit ID = 96 ; Src = 19 ; Dest = 50 ; Path = 19 --> 18 --> 26 --> 34 --> 42 --> 50
+Flit ID = 91 ; Src = 22 ; Dest = 0 ; Path = 22 --> 21 --> 20 --> 19 --> 18 --> 17 --> 16 --> 8 --> 0
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=110 PacketId=41 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=45 Src Router=45 Dest NI=75 Dest Router=11 Set Time=63500 Width=16 ]
+
+Flit ID = 90 ; Src = 63 ; Dest = 41 ; Path = 63 --> 62 --> 61 --> 60 --> 59 --> 58 --> 57 --> 49 --> 41
+Flit ID = 104 ; Src = 28 ; Dest = 43 ; Path = 28 --> 27 --> 35 --> 43
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=111 PacketId=42 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=28 Src Router=28 Dest NI=121 Dest Router=57 Set Time=65500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=112 PacketId=43 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=65500 Width=16 ]
+
+
+
+[flit:: Flit_ID=113 PacketId=43 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=65500 Width=16 ]
+
+
+
+[flit:: Flit_ID=114 PacketId=43 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=65500 Width=16 ]
+
+
+
+[flit:: Flit_ID=115 PacketId=43 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=65500 Width=16 ]
+
+
+
+[flit:: Flit_ID=116 PacketId=43 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=17 Src Router=17 Dest NI=87 Dest Router=23 Set Time=65500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=117 PacketId=44 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=40 Src Router=40 Dest NI=118 Dest Router=54 Set Time=68500 Width=16 ]
+
+Flit ID = 109 ; Src = 27 ; Dest = 4 ; Path = 27 --> 28 --> 20 --> 12 --> 4
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=118 PacketId=45 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=32 Src Router=32 Dest NI=98 Dest Router=34 Set Time=70500 Width=16 ]
+
+
+
+[flit:: Flit_ID=119 PacketId=45 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=32 Src Router=32 Dest NI=98 Dest Router=34 Set Time=70500 Width=16 ]
+
+
+
+[flit:: Flit_ID=120 PacketId=45 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=32 Src Router=32 Dest NI=98 Dest Router=34 Set Time=70500 Width=16 ]
+
+
+
+[flit:: Flit_ID=121 PacketId=45 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=32 Src Router=32 Dest NI=98 Dest Router=34 Set Time=70500 Width=16 ]
+
+
+
+[flit:: Flit_ID=122 PacketId=45 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=32 Src Router=32 Dest NI=98 Dest Router=34 Set Time=70500 Width=16 ]
+
+Flit ID = 110 ; Src = 45 ; Dest = 11 ; Path = 45 --> 44 --> 43 --> 35 --> 27 --> 19 --> 11
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=123 PacketId=46 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=43 Src Router=43 Dest NI=95 Dest Router=31 Set Time=71500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=124 PacketId=47 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=55 Src Router=55 Dest NI=122 Dest Router=58 Set Time=72500 Width=16 ]
+
+
+
+[flit:: Flit_ID=125 PacketId=47 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=55 Src Router=55 Dest NI=122 Dest Router=58 Set Time=72500 Width=16 ]
+
+
+
+[flit:: Flit_ID=126 PacketId=47 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=55 Src Router=55 Dest NI=122 Dest Router=58 Set Time=72500 Width=16 ]
+
+
+
+[flit:: Flit_ID=127 PacketId=47 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=55 Src Router=55 Dest NI=122 Dest Router=58 Set Time=72500 Width=16 ]
+
+
+
+[flit:: Flit_ID=128 PacketId=47 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=55 Src Router=55 Dest NI=122 Dest Router=58 Set Time=72500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=129 PacketId=48 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=57 Src Router=57 Dest NI=101 Dest Router=37 Set Time=73500 Width=16 ]
+
+
+
+[flit:: Flit_ID=130 PacketId=48 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=57 Src Router=57 Dest NI=101 Dest Router=37 Set Time=73500 Width=16 ]
+
+
+
+[flit:: Flit_ID=131 PacketId=48 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=57 Src Router=57 Dest NI=101 Dest Router=37 Set Time=73500 Width=16 ]
+
+
+
+[flit:: Flit_ID=132 PacketId=48 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=57 Src Router=57 Dest NI=101 Dest Router=37 Set Time=73500 Width=16 ]
+
+
+
+[flit:: Flit_ID=133 PacketId=48 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=57 Src Router=57 Dest NI=101 Dest Router=37 Set Time=73500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=134 PacketId=49 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=37 Src Router=37 Dest NI=72 Dest Router=8 Set Time=73500 Width=16 ]
+
+Flit ID = 111 ; Src = 28 ; Dest = 57 ; Path = 28 --> 27 --> 26 --> 25 --> 33 --> 41 --> 49 --> 57
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=135 PacketId=50 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=0 Src Router=0 Dest NI=127 Dest Router=63 Set Time=74500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=136 PacketId=51 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=20 Src Router=20 Dest NI=95 Dest Router=31 Set Time=75500 Width=16 ]
+
+
+
+[flit:: Flit_ID=137 PacketId=51 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=20 Src Router=20 Dest NI=95 Dest Router=31 Set Time=75500 Width=16 ]
+
+
+
+[flit:: Flit_ID=138 PacketId=51 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=20 Src Router=20 Dest NI=95 Dest Router=31 Set Time=75500 Width=16 ]
+
+
+
+[flit:: Flit_ID=139 PacketId=51 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=20 Src Router=20 Dest NI=95 Dest Router=31 Set Time=75500 Width=16 ]
+
+
+
+[flit:: Flit_ID=140 PacketId=51 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=20 Src Router=20 Dest NI=95 Dest Router=31 Set Time=75500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=141 PacketId=52 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=14 Src Router=14 Dest NI=100 Dest Router=36 Set Time=75500 Width=16 ]
+
+Flit ID = 116 ; Src = 17 ; Dest = 23 ; Path = 17 --> 18 --> 19 --> 20 --> 21 --> 22 --> 23
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=142 PacketId=53 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=6 Src Router=6 Dest NI=96 Dest Router=32 Set Time=76500 Width=16 ]
+
+Flit ID = 122 ; Src = 32 ; Dest = 34 ; Path = 32 --> 33 --> 34
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=143 PacketId=54 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=54 Src Router=54 Dest NI=77 Dest Router=13 Set Time=77500 Width=16 ]
+
+
+
+[flit:: Flit_ID=144 PacketId=54 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=54 Src Router=54 Dest NI=77 Dest Router=13 Set Time=77500 Width=16 ]
+
+
+
+[flit:: Flit_ID=145 PacketId=54 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=54 Src Router=54 Dest NI=77 Dest Router=13 Set Time=77500 Width=16 ]
+
+
+
+[flit:: Flit_ID=146 PacketId=54 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=54 Src Router=54 Dest NI=77 Dest Router=13 Set Time=77500 Width=16 ]
+
+
+
+[flit:: Flit_ID=147 PacketId=54 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=54 Src Router=54 Dest NI=77 Dest Router=13 Set Time=77500 Width=16 ]
+
+Flit ID = 117 ; Src = 40 ; Dest = 54 ; Path = 40 --> 41 --> 42 --> 43 --> 44 --> 45 --> 46 --> 54
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=148 PacketId=55 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=22 Src Router=22 Dest NI=82 Dest Router=18 Set Time=78500 Width=16 ]
+
+Flit ID = 123 ; Src = 43 ; Dest = 31 ; Path = 43 --> 44 --> 45 --> 46 --> 47 --> 39 --> 31
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=149 PacketId=56 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=23 Src Router=23 Dest NI=88 Dest Router=24 Set Time=79500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=150 PacketId=57 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=29 Src Router=29 Dest NI=127 Dest Router=63 Set Time=81500 Width=16 ]
+
+Flit ID = 141 ; Src = 14 ; Dest = 36 ; Path = 14 --> 13 --> 12 --> 20 --> 28 --> 36
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=151 PacketId=58 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=19 Src Router=19 Dest NI=124 Dest Router=60 Set Time=82500 Width=16 ]
+
+
+
+[flit:: Flit_ID=152 PacketId=58 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=19 Src Router=19 Dest NI=124 Dest Router=60 Set Time=82500 Width=16 ]
+
+
+
+[flit:: Flit_ID=153 PacketId=58 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=19 Src Router=19 Dest NI=124 Dest Router=60 Set Time=82500 Width=16 ]
+
+
+
+[flit:: Flit_ID=154 PacketId=58 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=19 Src Router=19 Dest NI=124 Dest Router=60 Set Time=82500 Width=16 ]
+
+
+
+[flit:: Flit_ID=155 PacketId=58 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=19 Src Router=19 Dest NI=124 Dest Router=60 Set Time=82500 Width=16 ]
+
+Flit ID = 128 ; Src = 55 ; Dest = 58 ; Path = 55 --> 54 --> 53 --> 52 --> 51 --> 50 --> 58
+Flit ID = 134 ; Src = 37 ; Dest = 8 ; Path = 37 --> 36 --> 35 --> 34 --> 33 --> 32 --> 24 --> 16 --> 8
+Flit ID = 140 ; Src = 20 ; Dest = 31 ; Path = 20 --> 21 --> 22 --> 23 --> 31
+Flit ID = 148 ; Src = 22 ; Dest = 18 ; Path = 22 --> 21 --> 20 --> 19 --> 18
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=156 PacketId=59 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=48 Src Router=48 Dest NI=112 Dest Router=48 Set Time=85500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=157 PacketId=60 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=49 Src Router=49 Dest NI=86 Dest Router=22 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=158 PacketId=60 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=49 Src Router=49 Dest NI=86 Dest Router=22 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=159 PacketId=60 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=49 Src Router=49 Dest NI=86 Dest Router=22 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=160 PacketId=60 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=49 Src Router=49 Dest NI=86 Dest Router=22 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=161 PacketId=60 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=49 Src Router=49 Dest NI=86 Dest Router=22 Set Time=86500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=162 PacketId=61 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=54 Src Router=54 Dest NI=110 Dest Router=46 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=163 PacketId=61 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=54 Src Router=54 Dest NI=110 Dest Router=46 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=164 PacketId=61 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=54 Src Router=54 Dest NI=110 Dest Router=46 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=165 PacketId=61 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=54 Src Router=54 Dest NI=110 Dest Router=46 Set Time=86500 Width=16 ]
+
+
+
+[flit:: Flit_ID=166 PacketId=61 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=54 Src Router=54 Dest NI=110 Dest Router=46 Set Time=86500 Width=16 ]
+
+Flit ID = 133 ; Src = 57 ; Dest = 37 ; Path = 57 --> 58 --> 59 --> 60 --> 61 --> 53 --> 45 --> 37
+Flit ID = 156 ; Src = 48 ; Dest = 48 ; Path = 48
+Flit ID = 142 ; Src = 6 ; Dest = 32 ; Path = 6 --> 5 --> 4 --> 3 --> 2 --> 1 --> 0 --> 8 --> 16 --> 24 --> 32
+Flit ID = 150 ; Src = 29 ; Dest = 63 ; Path = 29 --> 30 --> 31 --> 39 --> 47 --> 55 --> 63
+Flit ID = 147 ; Src = 54 ; Dest = 13 ; Path = 54 --> 53 --> 45 --> 37 --> 29 --> 21 --> 13
+Flit ID = 149 ; Src = 23 ; Dest = 24 ; Path = 23 --> 22 --> 21 --> 20 --> 19 --> 18 --> 17 --> 16 --> 24
+Flit ID = 135 ; Src = 0 ; Dest = 63 ; Path = 0 --> 1 --> 2 --> 3 --> 4 --> 5 --> 6 --> 7 --> 15 --> 23 --> 31 --> 39 --> 47 --> 55 --> 63
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=167 PacketId=62 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=13 Src Router=13 Dest NI=83 Dest Router=19 Set Time=90500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=168 PacketId=63 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=48 Src Router=48 Dest NI=67 Dest Router=3 Set Time=90500 Width=16 ]
+
+Flit ID = 166 ; Src = 54 ; Dest = 46 ; Path = 54 --> 46
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=169 PacketId=64 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=29 Src Router=29 Dest NI=69 Dest Router=5 Set Time=92500 Width=16 ]
+
+Flit ID = 155 ; Src = 19 ; Dest = 60 ; Path = 19 --> 20 --> 28 --> 36 --> 44 --> 52 --> 60
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=170 PacketId=65 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=30 Src Router=30 Dest NI=91 Dest Router=27 Set Time=94500 Width=16 ]
+
+Flit ID = 167 ; Src = 13 ; Dest = 19 ; Path = 13 --> 12 --> 11 --> 19
+Flit ID = 169 ; Src = 29 ; Dest = 5 ; Path = 29 --> 21 --> 13 --> 5
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=171 PacketId=66 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=11 Src Router=11 Dest NI=114 Dest Router=50 Set Time=97500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=172 PacketId=67 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=56 Src Router=56 Dest NI=89 Dest Router=25 Set Time=98500 Width=16 ]
+
+Flit ID = 170 ; Src = 30 ; Dest = 27 ; Path = 30 --> 29 --> 28 --> 27
+Flit ID = 161 ; Src = 49 ; Dest = 22 ; Path = 49 --> 50 --> 51 --> 52 --> 53 --> 54 --> 46 --> 38 --> 30 --> 22
+Flit ID = 168 ; Src = 48 ; Dest = 3 ; Path = 48 --> 49 --> 50 --> 51 --> 43 --> 35 --> 27 --> 19 --> 11 --> 3
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=173 PacketId=68 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=17 Src Router=17 Dest NI=121 Dest Router=57 Set Time=104500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=174 PacketId=69 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=40 Src Router=40 Dest NI=80 Dest Router=16 Set Time=104500 Width=16 ]
+
+Flit ID = 171 ; Src = 11 ; Dest = 50 ; Path = 11 --> 10 --> 18 --> 26 --> 34 --> 42 --> 50
+Flit ID = 172 ; Src = 56 ; Dest = 25 ; Path = 56 --> 57 --> 49 --> 41 --> 33 --> 25
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=175 PacketId=70 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=5 Src Router=5 Dest NI=121 Dest Router=57 Set Time=106500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=176 PacketId=71 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=5 Src Router=5 Dest NI=90 Dest Router=26 Set Time=108500 Width=16 ]
+
+
+
+[flit:: Flit_ID=177 PacketId=71 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=5 Src Router=5 Dest NI=90 Dest Router=26 Set Time=108500 Width=16 ]
+
+
+
+[flit:: Flit_ID=178 PacketId=71 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=5 Src Router=5 Dest NI=90 Dest Router=26 Set Time=108500 Width=16 ]
+
+
+
+[flit:: Flit_ID=179 PacketId=71 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=5 Src Router=5 Dest NI=90 Dest Router=26 Set Time=108500 Width=16 ]
+
+
+
+[flit:: Flit_ID=180 PacketId=71 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=5 Src Router=5 Dest NI=90 Dest Router=26 Set Time=108500 Width=16 ]
+
+Flit ID = 174 ; Src = 40 ; Dest = 16 ; Path = 40 --> 32 --> 24 --> 16
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=181 PacketId=72 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=47 Src Router=47 Dest NI=100 Dest Router=36 Set Time=109500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=182 PacketId=73 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=48 Src Router=48 Dest NI=106 Dest Router=42 Set Time=110500 Width=16 ]
+
+Flit ID = 173 ; Src = 17 ; Dest = 57 ; Path = 17 --> 25 --> 33 --> 41 --> 49 --> 57
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=183 PacketId=74 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=56 Src Router=56 Dest NI=100 Dest Router=36 Set Time=112500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=184 PacketId=75 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=29 Src Router=29 Dest NI=75 Dest Router=11 Set Time=113500 Width=16 ]
+
+Flit ID = 181 ; Src = 47 ; Dest = 36 ; Path = 47 --> 46 --> 45 --> 44 --> 36
+Flit ID = 182 ; Src = 48 ; Dest = 42 ; Path = 48 --> 49 --> 50 --> 42
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=185 PacketId=76 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=8 Src Router=8 Dest NI=67 Dest Router=3 Set Time=118500 Width=16 ]
+
+Flit ID = 180 ; Src = 5 ; Dest = 26 ; Path = 5 --> 4 --> 3 --> 2 --> 10 --> 18 --> 26
+Flit ID = 175 ; Src = 5 ; Dest = 57 ; Path = 5 --> 4 --> 3 --> 2 --> 1 --> 9 --> 17 --> 25 --> 33 --> 41 --> 49 --> 57
+Flit ID = 184 ; Src = 29 ; Dest = 11 ; Path = 29 --> 28 --> 27 --> 19 --> 11
+Flit ID = 183 ; Src = 56 ; Dest = 36 ; Path = 56 --> 57 --> 58 --> 59 --> 60 --> 52 --> 44 --> 36
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=186 PacketId=77 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=23 Src Router=23 Dest NI=70 Dest Router=6 Set Time=122500 Width=16 ]
+
+
+
+[flit:: Flit_ID=187 PacketId=77 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=23 Src Router=23 Dest NI=70 Dest Router=6 Set Time=122500 Width=16 ]
+
+
+
+[flit:: Flit_ID=188 PacketId=77 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=23 Src Router=23 Dest NI=70 Dest Router=6 Set Time=122500 Width=16 ]
+
+
+
+[flit:: Flit_ID=189 PacketId=77 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=23 Src Router=23 Dest NI=70 Dest Router=6 Set Time=122500 Width=16 ]
+
+
+
+[flit:: Flit_ID=190 PacketId=77 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=23 Src Router=23 Dest NI=70 Dest Router=6 Set Time=122500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=191 PacketId=78 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=39 Src Router=39 Dest NI=95 Dest Router=31 Set Time=123500 Width=16 ]
+
+Flit ID = 185 ; Src = 8 ; Dest = 3 ; Path = 8 --> 9 --> 10 --> 11 --> 3
+Flit ID = 191 ; Src = 39 ; Dest = 31 ; Path = 39 --> 31
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=192 PacketId=79 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=42 Src Router=42 Dest NI=116 Dest Router=52 Set Time=127500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=193 PacketId=80 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=35 Src Router=35 Dest NI=114 Dest Router=50 Set Time=129500 Width=16 ]
+
+Flit ID = 190 ; Src = 23 ; Dest = 6 ; Path = 23 --> 22 --> 14 --> 6
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=194 PacketId=81 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=2 Src Router=2 Dest NI=126 Dest Router=62 Set Time=131500 Width=16 ]
+
+
+
+[flit:: Flit_ID=195 PacketId=81 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=2 Src Router=2 Dest NI=126 Dest Router=62 Set Time=131500 Width=16 ]
+
+
+
+[flit:: Flit_ID=196 PacketId=81 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=2 Src Router=2 Dest NI=126 Dest Router=62 Set Time=131500 Width=16 ]
+
+
+
+[flit:: Flit_ID=197 PacketId=81 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=2 Src Router=2 Dest NI=126 Dest Router=62 Set Time=131500 Width=16 ]
+
+
+
+[flit:: Flit_ID=198 PacketId=81 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=2 Src Router=2 Dest NI=126 Dest Router=62 Set Time=131500 Width=16 ]
+
+Flit ID = 192 ; Src = 42 ; Dest = 52 ; Path = 42 --> 43 --> 44 --> 52
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=199 PacketId=82 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=0 Src Router=0 Dest NI=82 Dest Router=18 Set Time=133500 Width=16 ]
+
+
+
+[flit:: Flit_ID=200 PacketId=82 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=0 Src Router=0 Dest NI=82 Dest Router=18 Set Time=133500 Width=16 ]
+
+
+
+[flit:: Flit_ID=201 PacketId=82 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=0 Src Router=0 Dest NI=82 Dest Router=18 Set Time=133500 Width=16 ]
+
+
+
+[flit:: Flit_ID=202 PacketId=82 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=0 Src Router=0 Dest NI=82 Dest Router=18 Set Time=133500 Width=16 ]
+
+
+
+[flit:: Flit_ID=203 PacketId=82 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=0 Src Router=0 Dest NI=82 Dest Router=18 Set Time=133500 Width=16 ]
+
+Flit ID = 193 ; Src = 35 ; Dest = 50 ; Path = 35 --> 34 --> 42 --> 50
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=204 PacketId=83 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=60 Src Router=60 Dest NI=121 Dest Router=57 Set Time=134500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=205 PacketId=84 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=16 Src Router=16 Dest NI=114 Dest Router=50 Set Time=136500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=206 PacketId=85 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=55 Src Router=55 Dest NI=126 Dest Router=62 Set Time=136500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=207 PacketId=86 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=11 Src Router=11 Dest NI=97 Dest Router=33 Set Time=138500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=208 PacketId=87 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=13 Src Router=13 Dest NI=121 Dest Router=57 Set Time=138500 Width=16 ]
+
+
+
+[flit:: Flit_ID=209 PacketId=87 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=13 Src Router=13 Dest NI=121 Dest Router=57 Set Time=138500 Width=16 ]
+
+
+
+[flit:: Flit_ID=210 PacketId=87 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=13 Src Router=13 Dest NI=121 Dest Router=57 Set Time=138500 Width=16 ]
+
+
+
+[flit:: Flit_ID=211 PacketId=87 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=13 Src Router=13 Dest NI=121 Dest Router=57 Set Time=138500 Width=16 ]
+
+
+
+[flit:: Flit_ID=212 PacketId=87 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=13 Src Router=13 Dest NI=121 Dest Router=57 Set Time=138500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=213 PacketId=88 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=27 Src Router=27 Dest NI=83 Dest Router=19 Set Time=138500 Width=16 ]
+
+Flit ID = 204 ; Src = 60 ; Dest = 57 ; Path = 60 --> 59 --> 58 --> 57
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=214 PacketId=89 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=56 Src Router=56 Dest NI=102 Dest Router=38 Set Time=139500 Width=16 ]
+
+Flit ID = 206 ; Src = 55 ; Dest = 62 ; Path = 55 --> 54 --> 62
+Flit ID = 213 ; Src = 27 ; Dest = 19 ; Path = 27 --> 19
+Flit ID = 203 ; Src = 0 ; Dest = 18 ; Path = 0 --> 1 --> 2 --> 10 --> 18
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=215 PacketId=90 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=60 Src Router=60 Dest NI=65 Dest Router=1 Set Time=142500 Width=16 ]
+
+
+
+[flit:: Flit_ID=216 PacketId=90 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=60 Src Router=60 Dest NI=65 Dest Router=1 Set Time=142500 Width=16 ]
+
+
+
+[flit:: Flit_ID=217 PacketId=90 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=60 Src Router=60 Dest NI=65 Dest Router=1 Set Time=142500 Width=16 ]
+
+
+
+[flit:: Flit_ID=218 PacketId=90 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=60 Src Router=60 Dest NI=65 Dest Router=1 Set Time=142500 Width=16 ]
+
+
+
+[flit:: Flit_ID=219 PacketId=90 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=60 Src Router=60 Dest NI=65 Dest Router=1 Set Time=142500 Width=16 ]
+
+Flit ID = 205 ; Src = 16 ; Dest = 50 ; Path = 16 --> 17 --> 18 --> 26 --> 34 --> 42 --> 50
+Flit ID = 207 ; Src = 11 ; Dest = 33 ; Path = 11 --> 10 --> 9 --> 17 --> 25 --> 33
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=220 PacketId=91 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=21 Src Router=21 Dest NI=101 Dest Router=37 Set Time=145500 Width=16 ]
+
+
+
+[flit:: Flit_ID=221 PacketId=91 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=21 Src Router=21 Dest NI=101 Dest Router=37 Set Time=145500 Width=16 ]
+
+
+
+[flit:: Flit_ID=222 PacketId=91 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=21 Src Router=21 Dest NI=101 Dest Router=37 Set Time=145500 Width=16 ]
+
+
+
+[flit:: Flit_ID=223 PacketId=91 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=21 Src Router=21 Dest NI=101 Dest Router=37 Set Time=145500 Width=16 ]
+
+
+
+[flit:: Flit_ID=224 PacketId=91 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=21 Src Router=21 Dest NI=101 Dest Router=37 Set Time=145500 Width=16 ]
+
+Flit ID = 198 ; Src = 2 ; Dest = 62 ; Path = 2 --> 3 --> 4 --> 5 --> 6 --> 14 --> 22 --> 30 --> 38 --> 46 --> 54 --> 62
+Flit ID = 214 ; Src = 56 ; Dest = 38 ; Path = 56 --> 57 --> 58 --> 59 --> 60 --> 61 --> 62 --> 54 --> 46 --> 38
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=225 PacketId=92 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=46 Src Router=46 Dest NI=96 Dest Router=32 Set Time=151500 Width=16 ]
+
+Flit ID = 224 ; Src = 21 ; Dest = 37 ; Path = 21 --> 29 --> 37
+Flit ID = 212 ; Src = 13 ; Dest = 57 ; Path = 13 --> 12 --> 11 --> 10 --> 9 --> 17 --> 25 --> 33 --> 41 --> 49 --> 57
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=226 PacketId=93 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=32 Src Router=32 Dest NI=120 Dest Router=56 Set Time=153500 Width=16 ]
+
+
+
+[flit:: Flit_ID=227 PacketId=93 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=32 Src Router=32 Dest NI=120 Dest Router=56 Set Time=153500 Width=16 ]
+
+
+
+[flit:: Flit_ID=228 PacketId=93 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=32 Src Router=32 Dest NI=120 Dest Router=56 Set Time=153500 Width=16 ]
+
+
+
+[flit:: Flit_ID=229 PacketId=93 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=32 Src Router=32 Dest NI=120 Dest Router=56 Set Time=153500 Width=16 ]
+
+
+
+[flit:: Flit_ID=230 PacketId=93 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=32 Src Router=32 Dest NI=120 Dest Router=56 Set Time=153500 Width=16 ]
+
+Flit ID = 219 ; Src = 60 ; Dest = 1 ; Path = 60 --> 59 --> 58 --> 57 --> 49 --> 41 --> 33 --> 25 --> 17 --> 9 --> 1
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=231 PacketId=94 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=159500 Width=16 ]
+
+
+
+[flit:: Flit_ID=232 PacketId=94 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=159500 Width=16 ]
+
+
+
+[flit:: Flit_ID=233 PacketId=94 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=159500 Width=16 ]
+
+
+
+[flit:: Flit_ID=234 PacketId=94 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=159500 Width=16 ]
+
+
+
+[flit:: Flit_ID=235 PacketId=94 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=159500 Width=16 ]
+
+Flit ID = 225 ; Src = 46 ; Dest = 32 ; Path = 46 --> 45 --> 44 --> 43 --> 42 --> 41 --> 40 --> 32
+Flit ID = 230 ; Src = 32 ; Dest = 56 ; Path = 32 --> 40 --> 48 --> 56
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=236 PacketId=95 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=28 Src Router=28 Dest NI=82 Dest Router=18 Set Time=161500 Width=16 ]
+
+
+
+[flit:: Flit_ID=237 PacketId=95 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=28 Src Router=28 Dest NI=82 Dest Router=18 Set Time=161500 Width=16 ]
+
+
+
+[flit:: Flit_ID=238 PacketId=95 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=28 Src Router=28 Dest NI=82 Dest Router=18 Set Time=161500 Width=16 ]
+
+
+
+[flit:: Flit_ID=239 PacketId=95 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=28 Src Router=28 Dest NI=82 Dest Router=18 Set Time=161500 Width=16 ]
+
+
+
+[flit:: Flit_ID=240 PacketId=95 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=28 Src Router=28 Dest NI=82 Dest Router=18 Set Time=161500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=241 PacketId=96 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=3 Src Router=3 Dest NI=88 Dest Router=24 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=242 PacketId=96 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=3 Src Router=3 Dest NI=88 Dest Router=24 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=243 PacketId=96 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=3 Src Router=3 Dest NI=88 Dest Router=24 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=244 PacketId=96 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=3 Src Router=3 Dest NI=88 Dest Router=24 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=245 PacketId=96 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=3 Src Router=3 Dest NI=88 Dest Router=24 Set Time=162500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=246 PacketId=97 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=9 Src Router=9 Dest NI=64 Dest Router=0 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=247 PacketId=97 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=9 Src Router=9 Dest NI=64 Dest Router=0 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=248 PacketId=97 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=9 Src Router=9 Dest NI=64 Dest Router=0 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=249 PacketId=97 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=9 Src Router=9 Dest NI=64 Dest Router=0 Set Time=162500 Width=16 ]
+
+
+
+[flit:: Flit_ID=250 PacketId=97 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=9 Src Router=9 Dest NI=64 Dest Router=0 Set Time=162500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=251 PacketId=98 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=6 Src Router=6 Dest NI=116 Dest Router=52 Set Time=164500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=252 PacketId=99 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=53 Src Router=53 Dest NI=94 Dest Router=30 Set Time=167500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=253 PacketId=100 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=33 Src Router=33 Dest NI=87 Dest Router=23 Set Time=167500 Width=16 ]
+
+Flit ID = 250 ; Src = 9 ; Dest = 0 ; Path = 9 --> 8 --> 0
+Flit ID = 240 ; Src = 28 ; Dest = 18 ; Path = 28 --> 27 --> 26 --> 18
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=254 PacketId=101 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=55 Src Router=55 Dest NI=64 Dest Router=0 Set Time=169500 Width=16 ]
+
+Flit ID = 235 ; Src = 63 ; Dest = 20 ; Path = 63 --> 62 --> 61 --> 60 --> 52 --> 44 --> 36 --> 28 --> 20
+Flit ID = 245 ; Src = 3 ; Dest = 24 ; Path = 3 --> 2 --> 1 --> 0 --> 8 --> 16 --> 24
+Flit ID = 252 ; Src = 53 ; Dest = 30 ; Path = 53 --> 54 --> 46 --> 38 --> 30
+Flit ID = 251 ; Src = 6 ; Dest = 52 ; Path = 6 --> 5 --> 4 --> 12 --> 20 --> 28 --> 36 --> 44 --> 52
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=255 PacketId=102 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=174500 Width=16 ]
+
+
+
+[flit:: Flit_ID=256 PacketId=102 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=174500 Width=16 ]
+
+
+
+[flit:: Flit_ID=257 PacketId=102 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=174500 Width=16 ]
+
+
+
+[flit:: Flit_ID=258 PacketId=102 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=174500 Width=16 ]
+
+
+
+[flit:: Flit_ID=259 PacketId=102 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=22 Src Router=22 Dest NI=64 Dest Router=0 Set Time=174500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=260 PacketId=103 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=34 Src Router=34 Dest NI=112 Dest Router=48 Set Time=174500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=261 PacketId=104 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=53 Src Router=53 Dest NI=94 Dest Router=30 Set Time=174500 Width=16 ]
+
+Flit ID = 253 ; Src = 33 ; Dest = 23 ; Path = 33 --> 34 --> 35 --> 36 --> 37 --> 38 --> 39 --> 31 --> 23
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=262 PacketId=105 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=36 Src Router=36 Dest NI=117 Dest Router=53 Set Time=178500 Width=16 ]
+
+Flit ID = 260 ; Src = 34 ; Dest = 48 ; Path = 34 --> 33 --> 32 --> 40 --> 48
+Flit ID = 261 ; Src = 53 ; Dest = 30 ; Path = 53 --> 54 --> 46 --> 38 --> 30
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=263 PacketId=106 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=3 Src Router=3 Dest NI=114 Dest Router=50 Set Time=180500 Width=16 ]
+
+
+
+[flit:: Flit_ID=264 PacketId=106 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=3 Src Router=3 Dest NI=114 Dest Router=50 Set Time=180500 Width=16 ]
+
+
+
+[flit:: Flit_ID=265 PacketId=106 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=3 Src Router=3 Dest NI=114 Dest Router=50 Set Time=180500 Width=16 ]
+
+
+
+[flit:: Flit_ID=266 PacketId=106 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=3 Src Router=3 Dest NI=114 Dest Router=50 Set Time=180500 Width=16 ]
+
+
+
+[flit:: Flit_ID=267 PacketId=106 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=3 Src Router=3 Dest NI=114 Dest Router=50 Set Time=180500 Width=16 ]
+
+Flit ID = 262 ; Src = 36 ; Dest = 53 ; Path = 36 --> 37 --> 45 --> 53
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=268 PacketId=107 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=2 Src Router=2 Dest NI=88 Dest Router=24 Set Time=184500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=269 PacketId=108 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=9 Src Router=9 Dest NI=84 Dest Router=20 Set Time=184500 Width=16 ]
+
+
+
+[flit:: Flit_ID=270 PacketId=108 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=9 Src Router=9 Dest NI=84 Dest Router=20 Set Time=184500 Width=16 ]
+
+
+
+[flit:: Flit_ID=271 PacketId=108 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=9 Src Router=9 Dest NI=84 Dest Router=20 Set Time=184500 Width=16 ]
+
+
+
+[flit:: Flit_ID=272 PacketId=108 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=9 Src Router=9 Dest NI=84 Dest Router=20 Set Time=184500 Width=16 ]
+
+
+
+[flit:: Flit_ID=273 PacketId=108 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=9 Src Router=9 Dest NI=84 Dest Router=20 Set Time=184500 Width=16 ]
+
+Flit ID = 254 ; Src = 55 ; Dest = 0 ; Path = 55 --> 54 --> 53 --> 52 --> 51 --> 50 --> 49 --> 48 --> 40 --> 32 --> 24 --> 16 --> 8 --> 0
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=274 PacketId=109 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=39 Src Router=39 Dest NI=85 Dest Router=21 Set Time=185500 Width=16 ]
+
+Flit ID = 259 ; Src = 22 ; Dest = 0 ; Path = 22 --> 21 --> 20 --> 19 --> 18 --> 17 --> 16 --> 8 --> 0
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=275 PacketId=110 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=2 Src Router=2 Dest NI=92 Dest Router=28 Set Time=190500 Width=16 ]
+
+Flit ID = 268 ; Src = 2 ; Dest = 24 ; Path = 2 --> 1 --> 0 --> 8 --> 16 --> 24
+Flit ID = 274 ; Src = 39 ; Dest = 21 ; Path = 39 --> 38 --> 37 --> 29 --> 21
+Flit ID = 267 ; Src = 3 ; Dest = 50 ; Path = 3 --> 2 --> 10 --> 18 --> 26 --> 34 --> 42 --> 50
+Flit ID = 273 ; Src = 9 ; Dest = 20 ; Path = 9 --> 10 --> 11 --> 12 --> 20
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=276 PacketId=111 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=12 Src Router=12 Dest NI=94 Dest Router=30 Set Time=194500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=277 PacketId=112 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=43 Src Router=43 Dest NI=124 Dest Router=60 Set Time=194500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=278 PacketId=113 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=11 Src Router=11 Dest NI=117 Dest Router=53 Set Time=195500 Width=16 ]
+
+
+
+[flit:: Flit_ID=279 PacketId=113 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=11 Src Router=11 Dest NI=117 Dest Router=53 Set Time=195500 Width=16 ]
+
+
+
+[flit:: Flit_ID=280 PacketId=113 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=11 Src Router=11 Dest NI=117 Dest Router=53 Set Time=195500 Width=16 ]
+
+
+
+[flit:: Flit_ID=281 PacketId=113 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=11 Src Router=11 Dest NI=117 Dest Router=53 Set Time=195500 Width=16 ]
+
+
+
+[flit:: Flit_ID=282 PacketId=113 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=11 Src Router=11 Dest NI=117 Dest Router=53 Set Time=195500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=283 PacketId=114 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=63 Src Router=63 Dest NI=106 Dest Router=42 Set Time=196500 Width=16 ]
+
+Flit ID = 275 ; Src = 2 ; Dest = 28 ; Path = 2 --> 3 --> 4 --> 12 --> 20 --> 28
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=284 PacketId=115 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=53 Src Router=53 Dest NI=89 Dest Router=25 Set Time=197500 Width=16 ]
+
+
+
+[flit:: Flit_ID=285 PacketId=115 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=53 Src Router=53 Dest NI=89 Dest Router=25 Set Time=197500 Width=16 ]
+
+
+
+[flit:: Flit_ID=286 PacketId=115 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=53 Src Router=53 Dest NI=89 Dest Router=25 Set Time=197500 Width=16 ]
+
+
+
+[flit:: Flit_ID=287 PacketId=115 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=53 Src Router=53 Dest NI=89 Dest Router=25 Set Time=197500 Width=16 ]
+
+
+
+[flit:: Flit_ID=288 PacketId=115 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=53 Src Router=53 Dest NI=89 Dest Router=25 Set Time=197500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=289 PacketId=116 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=37 Src Router=37 Dest NI=115 Dest Router=51 Set Time=198500 Width=16 ]
+
+Flit ID = 277 ; Src = 43 ; Dest = 60 ; Path = 43 --> 44 --> 52 --> 60
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=290 PacketId=117 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=199500 Width=16 ]
+
+Flit ID = 276 ; Src = 12 ; Dest = 30 ; Path = 12 --> 13 --> 14 --> 22 --> 30
+Flit ID = 290 ; Src = 15 ; Dest = 31 ; Path = 15 --> 23 --> 31
+Flit ID = 289 ; Src = 37 ; Dest = 51 ; Path = 37 --> 36 --> 35 --> 43 --> 51
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=291 PacketId=118 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=53 Src Router=53 Dest NI=112 Dest Router=48 Set Time=204500 Width=16 ]
+
+
+
+[flit:: Flit_ID=292 PacketId=118 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=53 Src Router=53 Dest NI=112 Dest Router=48 Set Time=204500 Width=16 ]
+
+
+
+[flit:: Flit_ID=293 PacketId=118 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=53 Src Router=53 Dest NI=112 Dest Router=48 Set Time=204500 Width=16 ]
+
+
+
+[flit:: Flit_ID=294 PacketId=118 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=53 Src Router=53 Dest NI=112 Dest Router=48 Set Time=204500 Width=16 ]
+
+
+
+[flit:: Flit_ID=295 PacketId=118 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=53 Src Router=53 Dest NI=112 Dest Router=48 Set Time=204500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=296 PacketId=119 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=63 Src Router=63 Dest NI=114 Dest Router=50 Set Time=204500 Width=16 ]
+
+Flit ID = 283 ; Src = 63 ; Dest = 42 ; Path = 63 --> 62 --> 61 --> 60 --> 59 --> 58 --> 50 --> 42
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=297 PacketId=120 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=57 Src Router=57 Dest NI=77 Dest Router=13 Set Time=205500 Width=16 ]
+
+
+
+[flit:: Flit_ID=298 PacketId=120 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=57 Src Router=57 Dest NI=77 Dest Router=13 Set Time=205500 Width=16 ]
+
+
+
+[flit:: Flit_ID=299 PacketId=120 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=57 Src Router=57 Dest NI=77 Dest Router=13 Set Time=205500 Width=16 ]
+
+
+
+[flit:: Flit_ID=300 PacketId=120 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=57 Src Router=57 Dest NI=77 Dest Router=13 Set Time=205500 Width=16 ]
+
+
+
+[flit:: Flit_ID=301 PacketId=120 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=57 Src Router=57 Dest NI=77 Dest Router=13 Set Time=205500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=302 PacketId=121 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=40 Src Router=40 Dest NI=124 Dest Router=60 Set Time=206500 Width=16 ]
+
+
+
+[flit:: Flit_ID=303 PacketId=121 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=40 Src Router=40 Dest NI=124 Dest Router=60 Set Time=206500 Width=16 ]
+
+
+
+[flit:: Flit_ID=304 PacketId=121 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=40 Src Router=40 Dest NI=124 Dest Router=60 Set Time=206500 Width=16 ]
+
+
+
+[flit:: Flit_ID=305 PacketId=121 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=40 Src Router=40 Dest NI=124 Dest Router=60 Set Time=206500 Width=16 ]
+
+
+
+[flit:: Flit_ID=306 PacketId=121 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=40 Src Router=40 Dest NI=124 Dest Router=60 Set Time=206500 Width=16 ]
+
+Flit ID = 282 ; Src = 11 ; Dest = 53 ; Path = 11 --> 12 --> 13 --> 21 --> 29 --> 37 --> 45 --> 53
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=307 PacketId=122 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=59 Src Router=59 Dest NI=87 Dest Router=23 Set Time=207500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=308 PacketId=123 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=0 Src Router=0 Dest NI=124 Dest Router=60 Set Time=207500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=309 PacketId=124 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=39 Src Router=39 Dest NI=79 Dest Router=15 Set Time=208500 Width=16 ]
+
+
+
+[flit:: Flit_ID=310 PacketId=124 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=39 Src Router=39 Dest NI=79 Dest Router=15 Set Time=208500 Width=16 ]
+
+
+
+[flit:: Flit_ID=311 PacketId=124 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=39 Src Router=39 Dest NI=79 Dest Router=15 Set Time=208500 Width=16 ]
+
+
+
+[flit:: Flit_ID=312 PacketId=124 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=39 Src Router=39 Dest NI=79 Dest Router=15 Set Time=208500 Width=16 ]
+
+
+
+[flit:: Flit_ID=313 PacketId=124 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=39 Src Router=39 Dest NI=79 Dest Router=15 Set Time=208500 Width=16 ]
+
+Flit ID = 288 ; Src = 53 ; Dest = 25 ; Path = 53 --> 52 --> 51 --> 50 --> 49 --> 41 --> 33 --> 25
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=314 PacketId=125 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=53 Src Router=53 Dest NI=124 Dest Router=60 Set Time=209500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=315 PacketId=126 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=45 Src Router=45 Dest NI=107 Dest Router=43 Set Time=210500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=316 PacketId=127 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=46 Src Router=46 Dest NI=76 Dest Router=12 Set Time=210500 Width=16 ]
+
+
+
+[flit:: Flit_ID=317 PacketId=127 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=46 Src Router=46 Dest NI=76 Dest Router=12 Set Time=210500 Width=16 ]
+
+
+
+[flit:: Flit_ID=318 PacketId=127 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=46 Src Router=46 Dest NI=76 Dest Router=12 Set Time=210500 Width=16 ]
+
+
+
+[flit:: Flit_ID=319 PacketId=127 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=46 Src Router=46 Dest NI=76 Dest Router=12 Set Time=210500 Width=16 ]
+
+
+
+[flit:: Flit_ID=320 PacketId=127 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=46 Src Router=46 Dest NI=76 Dest Router=12 Set Time=210500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=321 PacketId=128 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=18 Src Router=18 Dest NI=71 Dest Router=7 Set Time=211500 Width=16 ]
+
+Flit ID = 296 ; Src = 63 ; Dest = 50 ; Path = 63 --> 62 --> 61 --> 60 --> 59 --> 58 --> 50
+Flit ID = 314 ; Src = 53 ; Dest = 60 ; Path = 53 --> 52 --> 60
+Flit ID = 295 ; Src = 53 ; Dest = 48 ; Path = 53 --> 52 --> 51 --> 50 --> 49 --> 48
+Flit ID = 315 ; Src = 45 ; Dest = 43 ; Path = 45 --> 44 --> 43
+Flit ID = 313 ; Src = 39 ; Dest = 15 ; Path = 39 --> 31 --> 23 --> 15
+Flit ID = 306 ; Src = 40 ; Dest = 60 ; Path = 40 --> 41 --> 42 --> 43 --> 44 --> 52 --> 60
+Flit ID = 307 ; Src = 59 ; Dest = 23 ; Path = 59 --> 60 --> 61 --> 62 --> 63 --> 55 --> 47 --> 39 --> 31 --> 23
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=322 PacketId=129 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=60 Src Router=60 Dest NI=101 Dest Router=37 Set Time=218500 Width=16 ]
+
+Flit ID = 301 ; Src = 57 ; Dest = 13 ; Path = 57 --> 58 --> 59 --> 60 --> 61 --> 53 --> 45 --> 37 --> 29 --> 21 --> 13
+Flit ID = 321 ; Src = 18 ; Dest = 7 ; Path = 18 --> 19 --> 20 --> 21 --> 22 --> 23 --> 15 --> 7
+Flit ID = 308 ; Src = 0 ; Dest = 60 ; Path = 0 --> 1 --> 2 --> 3 --> 4 --> 12 --> 20 --> 28 --> 36 --> 44 --> 52 --> 60
+Flit ID = 320 ; Src = 46 ; Dest = 12 ; Path = 46 --> 45 --> 44 --> 36 --> 28 --> 20 --> 12
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=323 PacketId=130 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=10 Src Router=10 Dest NI=104 Dest Router=40 Set Time=221500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=324 PacketId=131 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=54 Src Router=54 Dest NI=103 Dest Router=39 Set Time=223500 Width=16 ]
+
+
+
+[flit:: Flit_ID=325 PacketId=131 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=54 Src Router=54 Dest NI=103 Dest Router=39 Set Time=223500 Width=16 ]
+
+
+
+[flit:: Flit_ID=326 PacketId=131 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=54 Src Router=54 Dest NI=103 Dest Router=39 Set Time=223500 Width=16 ]
+
+
+
+[flit:: Flit_ID=327 PacketId=131 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=54 Src Router=54 Dest NI=103 Dest Router=39 Set Time=223500 Width=16 ]
+
+
+
+[flit:: Flit_ID=328 PacketId=131 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=54 Src Router=54 Dest NI=103 Dest Router=39 Set Time=223500 Width=16 ]
+
+Flit ID = 322 ; Src = 60 ; Dest = 37 ; Path = 60 --> 61 --> 53 --> 45 --> 37
+Flit ID = 323 ; Src = 10 ; Dest = 40 ; Path = 10 --> 9 --> 8 --> 16 --> 24 --> 32 --> 40
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=329 PacketId=132 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=39 Src Router=39 Dest NI=124 Dest Router=60 Set Time=229500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=330 PacketId=133 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=30 Src Router=30 Dest NI=72 Dest Router=8 Set Time=230500 Width=16 ]
+
+Flit ID = 328 ; Src = 54 ; Dest = 39 ; Path = 54 --> 55 --> 47 --> 39
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=331 PacketId=134 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=54 Src Router=54 Dest NI=87 Dest Router=23 Set Time=233500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=332 PacketId=135 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=41 Src Router=41 Dest NI=104 Dest Router=40 Set Time=233500 Width=16 ]
+
+Flit ID = 332 ; Src = 41 ; Dest = 40 ; Path = 41 --> 40
+Flit ID = 329 ; Src = 39 ; Dest = 60 ; Path = 39 --> 38 --> 37 --> 36 --> 44 --> 52 --> 60
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=333 PacketId=136 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=45 Src Router=45 Dest NI=123 Dest Router=59 Set Time=237500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=334 PacketId=137 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=14 Src Router=14 Dest NI=85 Dest Router=21 Set Time=237500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=335 PacketId=138 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=40 Src Router=40 Dest NI=106 Dest Router=42 Set Time=239500 Width=16 ]
+
+
+
+[flit:: Flit_ID=336 PacketId=138 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=40 Src Router=40 Dest NI=106 Dest Router=42 Set Time=239500 Width=16 ]
+
+
+
+[flit:: Flit_ID=337 PacketId=138 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=40 Src Router=40 Dest NI=106 Dest Router=42 Set Time=239500 Width=16 ]
+
+
+
+[flit:: Flit_ID=338 PacketId=138 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=40 Src Router=40 Dest NI=106 Dest Router=42 Set Time=239500 Width=16 ]
+
+
+
+[flit:: Flit_ID=339 PacketId=138 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=40 Src Router=40 Dest NI=106 Dest Router=42 Set Time=239500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=340 PacketId=139 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=10 Src Router=10 Dest NI=81 Dest Router=17 Set Time=239500 Width=16 ]
+
+Flit ID = 330 ; Src = 30 ; Dest = 8 ; Path = 30 --> 29 --> 28 --> 27 --> 26 --> 25 --> 24 --> 16 --> 8
+Flit ID = 331 ; Src = 54 ; Dest = 23 ; Path = 54 --> 55 --> 47 --> 39 --> 31 --> 23
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=341 PacketId=140 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=19 Src Router=19 Dest NI=116 Dest Router=52 Set Time=240500 Width=16 ]
+
+
+
+[flit:: Flit_ID=342 PacketId=140 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=19 Src Router=19 Dest NI=116 Dest Router=52 Set Time=240500 Width=16 ]
+
+
+
+[flit:: Flit_ID=343 PacketId=140 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=19 Src Router=19 Dest NI=116 Dest Router=52 Set Time=240500 Width=16 ]
+
+
+
+[flit:: Flit_ID=344 PacketId=140 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=19 Src Router=19 Dest NI=116 Dest Router=52 Set Time=240500 Width=16 ]
+
+
+
+[flit:: Flit_ID=345 PacketId=140 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=19 Src Router=19 Dest NI=116 Dest Router=52 Set Time=240500 Width=16 ]
+
+Flit ID = 334 ; Src = 14 ; Dest = 21 ; Path = 14 --> 13 --> 21
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=346 PacketId=141 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=25 Src Router=25 Dest NI=99 Dest Router=35 Set Time=241500 Width=16 ]
+
+Flit ID = 333 ; Src = 45 ; Dest = 59 ; Path = 45 --> 44 --> 43 --> 51 --> 59
+Flit ID = 340 ; Src = 10 ; Dest = 17 ; Path = 10 --> 9 --> 17
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=347 PacketId=142 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=14 Src Router=14 Dest NI=84 Dest Router=20 Set Time=244500 Width=16 ]
+
+
+
+[flit:: Flit_ID=348 PacketId=142 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=14 Src Router=14 Dest NI=84 Dest Router=20 Set Time=244500 Width=16 ]
+
+
+
+[flit:: Flit_ID=349 PacketId=142 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=14 Src Router=14 Dest NI=84 Dest Router=20 Set Time=244500 Width=16 ]
+
+
+
+[flit:: Flit_ID=350 PacketId=142 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=14 Src Router=14 Dest NI=84 Dest Router=20 Set Time=244500 Width=16 ]
+
+
+
+[flit:: Flit_ID=351 PacketId=142 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=14 Src Router=14 Dest NI=84 Dest Router=20 Set Time=244500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=352 PacketId=143 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=245500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=353 PacketId=144 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=5 Src Router=5 Dest NI=78 Dest Router=14 Set Time=245500 Width=16 ]
+
+Flit ID = 339 ; Src = 40 ; Dest = 42 ; Path = 40 --> 41 --> 42
+Flit ID = 346 ; Src = 25 ; Dest = 35 ; Path = 25 --> 26 --> 27 --> 35
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=354 PacketId=145 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=1 Src Router=1 Dest NI=77 Dest Router=13 Set Time=248500 Width=16 ]
+
+
+
+[flit:: Flit_ID=355 PacketId=145 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=1 Src Router=1 Dest NI=77 Dest Router=13 Set Time=248500 Width=16 ]
+
+
+
+[flit:: Flit_ID=356 PacketId=145 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=1 Src Router=1 Dest NI=77 Dest Router=13 Set Time=248500 Width=16 ]
+
+
+
+[flit:: Flit_ID=357 PacketId=145 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=1 Src Router=1 Dest NI=77 Dest Router=13 Set Time=248500 Width=16 ]
+
+
+
+[flit:: Flit_ID=358 PacketId=145 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=1 Src Router=1 Dest NI=77 Dest Router=13 Set Time=248500 Width=16 ]
+
+Flit ID = 353 ; Src = 5 ; Dest = 14 ; Path = 5 --> 6 --> 14
+Flit ID = 352 ; Src = 46 ; Dest = 62 ; Path = 46 --> 54 --> 62
+Flit ID = 345 ; Src = 19 ; Dest = 52 ; Path = 19 --> 20 --> 28 --> 36 --> 44 --> 52
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=359 PacketId=146 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=30 Src Router=30 Dest NI=102 Dest Router=38 Set Time=251500 Width=16 ]
+
+Flit ID = 351 ; Src = 14 ; Dest = 20 ; Path = 14 --> 13 --> 12 --> 20
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=360 PacketId=147 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=29 Src Router=29 Dest NI=104 Dest Router=40 Set Time=253500 Width=16 ]
+
+
+
+[flit:: Flit_ID=361 PacketId=147 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=29 Src Router=29 Dest NI=104 Dest Router=40 Set Time=253500 Width=16 ]
+
+
+
+[flit:: Flit_ID=362 PacketId=147 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=29 Src Router=29 Dest NI=104 Dest Router=40 Set Time=253500 Width=16 ]
+
+
+
+[flit:: Flit_ID=363 PacketId=147 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=29 Src Router=29 Dest NI=104 Dest Router=40 Set Time=253500 Width=16 ]
+
+
+
+[flit:: Flit_ID=364 PacketId=147 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=29 Src Router=29 Dest NI=104 Dest Router=40 Set Time=253500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=365 PacketId=148 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=24 Src Router=24 Dest NI=76 Dest Router=12 Set Time=253500 Width=16 ]
+
+Flit ID = 359 ; Src = 30 ; Dest = 38 ; Path = 30 --> 38
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=366 PacketId=149 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=34 Src Router=34 Dest NI=105 Dest Router=41 Set Time=254500 Width=16 ]
+
+Flit ID = 358 ; Src = 1 ; Dest = 13 ; Path = 1 --> 2 --> 3 --> 4 --> 5 --> 13
+Flit ID = 366 ; Src = 34 ; Dest = 41 ; Path = 34 --> 33 --> 41
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=367 PacketId=150 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=62 Src Router=62 Dest NI=77 Dest Router=13 Set Time=258500 Width=16 ]
+
+
+
+[flit:: Flit_ID=368 PacketId=150 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=62 Src Router=62 Dest NI=77 Dest Router=13 Set Time=258500 Width=16 ]
+
+
+
+[flit:: Flit_ID=369 PacketId=150 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=62 Src Router=62 Dest NI=77 Dest Router=13 Set Time=258500 Width=16 ]
+
+
+
+[flit:: Flit_ID=370 PacketId=150 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=62 Src Router=62 Dest NI=77 Dest Router=13 Set Time=258500 Width=16 ]
+
+
+
+[flit:: Flit_ID=371 PacketId=150 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=62 Src Router=62 Dest NI=77 Dest Router=13 Set Time=258500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=372 PacketId=151 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=36 Src Router=36 Dest NI=92 Dest Router=28 Set Time=259500 Width=16 ]
+
+
+
+[flit:: Flit_ID=373 PacketId=151 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=36 Src Router=36 Dest NI=92 Dest Router=28 Set Time=259500 Width=16 ]
+
+
+
+[flit:: Flit_ID=374 PacketId=151 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=36 Src Router=36 Dest NI=92 Dest Router=28 Set Time=259500 Width=16 ]
+
+
+
+[flit:: Flit_ID=375 PacketId=151 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=36 Src Router=36 Dest NI=92 Dest Router=28 Set Time=259500 Width=16 ]
+
+
+
+[flit:: Flit_ID=376 PacketId=151 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=36 Src Router=36 Dest NI=92 Dest Router=28 Set Time=259500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=377 PacketId=152 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=19 Src Router=19 Dest NI=103 Dest Router=39 Set Time=259500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=378 PacketId=153 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=6 Src Router=6 Dest NI=95 Dest Router=31 Set Time=260500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=379 PacketId=154 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=63 Src Router=63 Dest NI=123 Dest Router=59 Set Time=260500 Width=16 ]
+
+Flit ID = 365 ; Src = 24 ; Dest = 12 ; Path = 24 --> 25 --> 26 --> 27 --> 28 --> 20 --> 12
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=380 PacketId=155 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=29 Src Router=29 Dest NI=66 Dest Router=2 Set Time=261500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=381 PacketId=156 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=2 Src Router=2 Dest NI=125 Dest Router=61 Set Time=262500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=382 PacketId=157 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=55 Src Router=55 Dest NI=106 Dest Router=42 Set Time=263500 Width=16 ]
+
+Flit ID = 376 ; Src = 36 ; Dest = 28 ; Path = 36 --> 28
+Flit ID = 364 ; Src = 29 ; Dest = 40 ; Path = 29 --> 28 --> 27 --> 26 --> 25 --> 24 --> 32 --> 40
+Flit ID = 379 ; Src = 63 ; Dest = 59 ; Path = 63 --> 62 --> 61 --> 60 --> 59
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=383 PacketId=158 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=60 Src Router=60 Dest NI=98 Dest Router=34 Set Time=266500 Width=16 ]
+
+Flit ID = 378 ; Src = 6 ; Dest = 31 ; Path = 6 --> 7 --> 15 --> 23 --> 31
+Flit ID = 377 ; Src = 19 ; Dest = 39 ; Path = 19 --> 20 --> 21 --> 22 --> 23 --> 31 --> 39
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=384 PacketId=159 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=2 Src Router=2 Dest NI=77 Dest Router=13 Set Time=267500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=385 PacketId=160 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=12 Src Router=12 Dest NI=65 Dest Router=1 Set Time=268500 Width=16 ]
+
+
+
+[flit:: Flit_ID=386 PacketId=160 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=12 Src Router=12 Dest NI=65 Dest Router=1 Set Time=268500 Width=16 ]
+
+
+
+[flit:: Flit_ID=387 PacketId=160 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=12 Src Router=12 Dest NI=65 Dest Router=1 Set Time=268500 Width=16 ]
+
+
+
+[flit:: Flit_ID=388 PacketId=160 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=12 Src Router=12 Dest NI=65 Dest Router=1 Set Time=268500 Width=16 ]
+
+
+
+[flit:: Flit_ID=389 PacketId=160 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=12 Src Router=12 Dest NI=65 Dest Router=1 Set Time=268500 Width=16 ]
+
+Flit ID = 380 ; Src = 29 ; Dest = 2 ; Path = 29 --> 28 --> 27 --> 26 --> 18 --> 10 --> 2
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=390 PacketId=161 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=50 Src Router=50 Dest NI=120 Dest Router=56 Set Time=269500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=391 PacketId=162 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=34 Src Router=34 Dest NI=107 Dest Router=43 Set Time=269500 Width=16 ]
+
+Flit ID = 371 ; Src = 62 ; Dest = 13 ; Path = 62 --> 61 --> 53 --> 45 --> 37 --> 29 --> 21 --> 13
+Flit ID = 382 ; Src = 55 ; Dest = 42 ; Path = 55 --> 54 --> 53 --> 52 --> 51 --> 50 --> 42
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=392 PacketId=163 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=51 Src Router=51 Dest NI=71 Dest Router=7 Set Time=271500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=393 PacketId=164 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=10 Src Router=10 Dest NI=118 Dest Router=54 Set Time=272500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=394 PacketId=165 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=26 Src Router=26 Dest NI=102 Dest Router=38 Set Time=272500 Width=16 ]
+
+Flit ID = 384 ; Src = 2 ; Dest = 13 ; Path = 2 --> 3 --> 4 --> 5 --> 13
+Flit ID = 383 ; Src = 60 ; Dest = 34 ; Path = 60 --> 59 --> 58 --> 50 --> 42 --> 34
+Flit ID = 391 ; Src = 34 ; Dest = 43 ; Path = 34 --> 35 --> 43
+Flit ID = 381 ; Src = 2 ; Dest = 61 ; Path = 2 --> 3 --> 4 --> 5 --> 13 --> 21 --> 29 --> 37 --> 45 --> 53 --> 61
+Flit ID = 390 ; Src = 50 ; Dest = 56 ; Path = 50 --> 49 --> 48 --> 56
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=395 PacketId=166 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=32 Src Router=32 Dest NI=100 Dest Router=36 Set Time=274500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=396 PacketId=167 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=26 Src Router=26 Dest NI=79 Dest Router=15 Set Time=275500 Width=16 ]
+
+Flit ID = 389 ; Src = 12 ; Dest = 1 ; Path = 12 --> 11 --> 10 --> 9 --> 1
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=397 PacketId=168 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=44 Src Router=44 Dest NI=75 Dest Router=11 Set Time=277500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=398 PacketId=169 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=25 Src Router=25 Dest NI=108 Dest Router=44 Set Time=278500 Width=16 ]
+
+Flit ID = 394 ; Src = 26 ; Dest = 38 ; Path = 26 --> 27 --> 28 --> 29 --> 30 --> 38
+Flit ID = 395 ; Src = 32 ; Dest = 36 ; Path = 32 --> 33 --> 34 --> 35 --> 36
+Flit ID = 392 ; Src = 51 ; Dest = 7 ; Path = 51 --> 52 --> 53 --> 54 --> 55 --> 47 --> 39 --> 31 --> 23 --> 15 --> 7
+Flit ID = 393 ; Src = 10 ; Dest = 54 ; Path = 10 --> 11 --> 12 --> 13 --> 14 --> 22 --> 30 --> 38 --> 46 --> 54
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=399 PacketId=170 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=53 Src Router=53 Dest NI=120 Dest Router=56 Set Time=283500 Width=16 ]
+
+Flit ID = 396 ; Src = 26 ; Dest = 15 ; Path = 26 --> 27 --> 28 --> 29 --> 30 --> 31 --> 23 --> 15
+Flit ID = 397 ; Src = 44 ; Dest = 11 ; Path = 44 --> 43 --> 35 --> 27 --> 19 --> 11
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=400 PacketId=171 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=22 Src Router=22 Dest NI=122 Dest Router=58 Set Time=284500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=401 PacketId=172 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=48 Src Router=48 Dest NI=93 Dest Router=29 Set Time=284500 Width=16 ]
+
+Flit ID = 398 ; Src = 25 ; Dest = 44 ; Path = 25 --> 26 --> 27 --> 28 --> 36 --> 44
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=402 PacketId=173 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=41 Src Router=41 Dest NI=124 Dest Router=60 Set Time=285500 Width=16 ]
+
+
+
+[flit:: Flit_ID=403 PacketId=173 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=41 Src Router=41 Dest NI=124 Dest Router=60 Set Time=285500 Width=16 ]
+
+
+
+[flit:: Flit_ID=404 PacketId=173 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=41 Src Router=41 Dest NI=124 Dest Router=60 Set Time=285500 Width=16 ]
+
+
+
+[flit:: Flit_ID=405 PacketId=173 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=41 Src Router=41 Dest NI=124 Dest Router=60 Set Time=285500 Width=16 ]
+
+
+
+[flit:: Flit_ID=406 PacketId=173 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=41 Src Router=41 Dest NI=124 Dest Router=60 Set Time=285500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=407 PacketId=174 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=19 Src Router=19 Dest NI=98 Dest Router=34 Set Time=285500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=408 PacketId=175 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=57 Src Router=57 Dest NI=84 Dest Router=20 Set Time=289500 Width=16 ]
+
+Flit ID = 407 ; Src = 19 ; Dest = 34 ; Path = 19 --> 18 --> 26 --> 34
+Flit ID = 399 ; Src = 53 ; Dest = 56 ; Path = 53 --> 52 --> 51 --> 50 --> 49 --> 48 --> 56
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=409 PacketId=176 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=40 Src Router=40 Dest NI=98 Dest Router=34 Set Time=291500 Width=16 ]
+
+
+
+[flit:: Flit_ID=410 PacketId=176 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=40 Src Router=40 Dest NI=98 Dest Router=34 Set Time=291500 Width=16 ]
+
+
+
+[flit:: Flit_ID=411 PacketId=176 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=40 Src Router=40 Dest NI=98 Dest Router=34 Set Time=291500 Width=16 ]
+
+
+
+[flit:: Flit_ID=412 PacketId=176 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=40 Src Router=40 Dest NI=98 Dest Router=34 Set Time=291500 Width=16 ]
+
+
+
+[flit:: Flit_ID=413 PacketId=176 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=40 Src Router=40 Dest NI=98 Dest Router=34 Set Time=291500 Width=16 ]
+
+Flit ID = 401 ; Src = 48 ; Dest = 29 ; Path = 48 --> 49 --> 50 --> 51 --> 52 --> 53 --> 45 --> 37 --> 29
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=414 PacketId=177 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=1 Src Router=1 Dest NI=101 Dest Router=37 Set Time=294500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=415 PacketId=178 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=53 Src Router=53 Dest NI=64 Dest Router=0 Set Time=294500 Width=16 ]
+
+
+
+[flit:: Flit_ID=416 PacketId=178 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=53 Src Router=53 Dest NI=64 Dest Router=0 Set Time=294500 Width=16 ]
+
+
+
+[flit:: Flit_ID=417 PacketId=178 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=53 Src Router=53 Dest NI=64 Dest Router=0 Set Time=294500 Width=16 ]
+
+
+
+[flit:: Flit_ID=418 PacketId=178 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=53 Src Router=53 Dest NI=64 Dest Router=0 Set Time=294500 Width=16 ]
+
+
+
+[flit:: Flit_ID=419 PacketId=178 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=53 Src Router=53 Dest NI=64 Dest Router=0 Set Time=294500 Width=16 ]
+
+Flit ID = 406 ; Src = 41 ; Dest = 60 ; Path = 41 --> 42 --> 43 --> 44 --> 52 --> 60
+Flit ID = 400 ; Src = 22 ; Dest = 58 ; Path = 22 --> 21 --> 20 --> 19 --> 18 --> 26 --> 34 --> 42 --> 50 --> 58
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=420 PacketId=179 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=45 Src Router=45 Dest NI=109 Dest Router=45 Set Time=295500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=421 PacketId=180 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=17 Src Router=17 Dest NI=96 Dest Router=32 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=422 PacketId=180 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=17 Src Router=17 Dest NI=96 Dest Router=32 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=423 PacketId=180 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=17 Src Router=17 Dest NI=96 Dest Router=32 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=424 PacketId=180 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=17 Src Router=17 Dest NI=96 Dest Router=32 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=425 PacketId=180 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=17 Src Router=17 Dest NI=96 Dest Router=32 Set Time=295500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=426 PacketId=181 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=11 Src Router=11 Dest NI=72 Dest Router=8 Set Time=295500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=427 PacketId=182 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=6 Src Router=6 Dest NI=76 Dest Router=12 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=428 PacketId=182 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=6 Src Router=6 Dest NI=76 Dest Router=12 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=429 PacketId=182 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=6 Src Router=6 Dest NI=76 Dest Router=12 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=430 PacketId=182 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=6 Src Router=6 Dest NI=76 Dest Router=12 Set Time=295500 Width=16 ]
+
+
+
+[flit:: Flit_ID=431 PacketId=182 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=6 Src Router=6 Dest NI=76 Dest Router=12 Set Time=295500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=432 PacketId=183 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=37 Src Router=37 Dest NI=73 Dest Router=9 Set Time=296500 Width=16 ]
+
+
+
+[flit:: Flit_ID=433 PacketId=183 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=37 Src Router=37 Dest NI=73 Dest Router=9 Set Time=296500 Width=16 ]
+
+
+
+[flit:: Flit_ID=434 PacketId=183 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=37 Src Router=37 Dest NI=73 Dest Router=9 Set Time=296500 Width=16 ]
+
+
+
+[flit:: Flit_ID=435 PacketId=183 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=37 Src Router=37 Dest NI=73 Dest Router=9 Set Time=296500 Width=16 ]
+
+
+
+[flit:: Flit_ID=436 PacketId=183 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=37 Src Router=37 Dest NI=73 Dest Router=9 Set Time=296500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=437 PacketId=184 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=61 Src Router=61 Dest NI=91 Dest Router=27 Set Time=296500 Width=16 ]
+
+Flit ID = 420 ; Src = 45 ; Dest = 45 ; Path = 45
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=438 PacketId=185 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=49 Src Router=49 Dest NI=102 Dest Router=38 Set Time=297500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=439 PacketId=186 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=40 Src Router=40 Dest NI=111 Dest Router=47 Set Time=298500 Width=16 ]
+
+Flit ID = 413 ; Src = 40 ; Dest = 34 ; Path = 40 --> 41 --> 42 --> 34
+Flit ID = 408 ; Src = 57 ; Dest = 20 ; Path = 57 --> 58 --> 59 --> 60 --> 52 --> 44 --> 36 --> 28 --> 20
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=440 PacketId=187 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=53 Src Router=53 Dest NI=76 Dest Router=12 Set Time=299500 Width=16 ]
+
+
+
+[flit:: Flit_ID=441 PacketId=187 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=53 Src Router=53 Dest NI=76 Dest Router=12 Set Time=299500 Width=16 ]
+
+
+
+[flit:: Flit_ID=442 PacketId=187 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=53 Src Router=53 Dest NI=76 Dest Router=12 Set Time=299500 Width=16 ]
+
+
+
+[flit:: Flit_ID=443 PacketId=187 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=53 Src Router=53 Dest NI=76 Dest Router=12 Set Time=299500 Width=16 ]
+
+
+
+[flit:: Flit_ID=444 PacketId=187 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=53 Src Router=53 Dest NI=76 Dest Router=12 Set Time=299500 Width=16 ]
+
+Flit ID = 426 ; Src = 11 ; Dest = 8 ; Path = 11 --> 10 --> 9 --> 8
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=445 PacketId=188 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=1 Src Router=1 Dest NI=118 Dest Router=54 Set Time=301500 Width=16 ]
+
+Flit ID = 431 ; Src = 6 ; Dest = 12 ; Path = 6 --> 5 --> 4 --> 12
+Flit ID = 425 ; Src = 17 ; Dest = 32 ; Path = 17 --> 16 --> 24 --> 32
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=446 PacketId=189 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=6 Src Router=6 Dest NI=99 Dest Router=35 Set Time=303500 Width=16 ]
+
+
+
+[flit:: Flit_ID=447 PacketId=189 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=6 Src Router=6 Dest NI=99 Dest Router=35 Set Time=303500 Width=16 ]
+
+
+
+[flit:: Flit_ID=448 PacketId=189 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=6 Src Router=6 Dest NI=99 Dest Router=35 Set Time=303500 Width=16 ]
+
+
+
+[flit:: Flit_ID=449 PacketId=189 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=6 Src Router=6 Dest NI=99 Dest Router=35 Set Time=303500 Width=16 ]
+
+
+
+[flit:: Flit_ID=450 PacketId=189 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=6 Src Router=6 Dest NI=99 Dest Router=35 Set Time=303500 Width=16 ]
+
+Flit ID = 437 ; Src = 61 ; Dest = 27 ; Path = 61 --> 60 --> 59 --> 51 --> 43 --> 35 --> 27
+Flit ID = 414 ; Src = 1 ; Dest = 37 ; Path = 1 --> 2 --> 3 --> 4 --> 5 --> 13 --> 21 --> 29 --> 37
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=451 PacketId=190 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=9 Src Router=9 Dest NI=104 Dest Router=40 Set Time=304500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=452 PacketId=191 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=32 Src Router=32 Dest NI=73 Dest Router=9 Set Time=304500 Width=16 ]
+
+Flit ID = 438 ; Src = 49 ; Dest = 38 ; Path = 49 --> 50 --> 51 --> 52 --> 53 --> 54 --> 46 --> 38
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=453 PacketId=192 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=16 Src Router=16 Dest NI=116 Dest Router=52 Set Time=306500 Width=16 ]
+
+
+
+[flit:: Flit_ID=454 PacketId=192 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=16 Src Router=16 Dest NI=116 Dest Router=52 Set Time=306500 Width=16 ]
+
+
+
+[flit:: Flit_ID=455 PacketId=192 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=16 Src Router=16 Dest NI=116 Dest Router=52 Set Time=306500 Width=16 ]
+
+
+
+[flit:: Flit_ID=456 PacketId=192 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=16 Src Router=16 Dest NI=116 Dest Router=52 Set Time=306500 Width=16 ]
+
+
+
+[flit:: Flit_ID=457 PacketId=192 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=16 Src Router=16 Dest NI=116 Dest Router=52 Set Time=306500 Width=16 ]
+
+Flit ID = 439 ; Src = 40 ; Dest = 47 ; Path = 40 --> 41 --> 42 --> 43 --> 44 --> 45 --> 46 --> 47
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=458 PacketId=193 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=33 Src Router=33 Dest NI=101 Dest Router=37 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=459 PacketId=193 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=33 Src Router=33 Dest NI=101 Dest Router=37 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=460 PacketId=193 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=33 Src Router=33 Dest NI=101 Dest Router=37 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=461 PacketId=193 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=33 Src Router=33 Dest NI=101 Dest Router=37 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=462 PacketId=193 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=33 Src Router=33 Dest NI=101 Dest Router=37 Set Time=307500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=463 PacketId=194 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=464 PacketId=194 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=465 PacketId=194 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=466 PacketId=194 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=307500 Width=16 ]
+
+
+
+[flit:: Flit_ID=467 PacketId=194 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=15 Src Router=15 Dest NI=95 Dest Router=31 Set Time=307500 Width=16 ]
+
+Flit ID = 436 ; Src = 37 ; Dest = 9 ; Path = 37 --> 36 --> 35 --> 34 --> 33 --> 25 --> 17 --> 9
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=468 PacketId=195 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=42 Src Router=42 Dest NI=92 Dest Router=28 Set Time=308500 Width=16 ]
+
+Flit ID = 419 ; Src = 53 ; Dest = 0 ; Path = 53 --> 52 --> 51 --> 50 --> 49 --> 48 --> 40 --> 32 --> 24 --> 16 --> 8 --> 0
+Flit ID = 444 ; Src = 53 ; Dest = 12 ; Path = 53 --> 52 --> 44 --> 36 --> 28 --> 20 --> 12
+Flit ID = 452 ; Src = 32 ; Dest = 9 ; Path = 32 --> 33 --> 25 --> 17 --> 9
+Flit ID = 451 ; Src = 9 ; Dest = 40 ; Path = 9 --> 8 --> 16 --> 24 --> 32 --> 40
+Flit ID = 467 ; Src = 15 ; Dest = 31 ; Path = 15 --> 23 --> 31
+Flit ID = 445 ; Src = 1 ; Dest = 54 ; Path = 1 --> 2 --> 3 --> 4 --> 5 --> 6 --> 14 --> 22 --> 30 --> 38 --> 46 --> 54
+Flit ID = 468 ; Src = 42 ; Dest = 28 ; Path = 42 --> 43 --> 44 --> 36 --> 28
+Flit ID = 450 ; Src = 6 ; Dest = 35 ; Path = 6 --> 5 --> 4 --> 3 --> 11 --> 19 --> 27 --> 35
+Flit ID = 462 ; Src = 33 ; Dest = 37 ; Path = 33 --> 34 --> 35 --> 36 --> 37
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=469 PacketId=196 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=12 Src Router=12 Dest NI=82 Dest Router=18 Set Time=316500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=470 PacketId=197 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=43 Src Router=43 Dest NI=84 Dest Router=20 Set Time=317500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=471 PacketId=198 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=34 Src Router=34 Dest NI=117 Dest Router=53 Set Time=317500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=472 PacketId=199 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=12 Src Router=12 Dest NI=112 Dest Router=48 Set Time=318500 Width=16 ]
+
+Flit ID = 457 ; Src = 16 ; Dest = 52 ; Path = 16 --> 17 --> 18 --> 19 --> 20 --> 28 --> 36 --> 44 --> 52
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=473 PacketId=200 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=32 Src Router=32 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+
+
+[flit:: Flit_ID=474 PacketId=200 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=32 Src Router=32 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+
+
+[flit:: Flit_ID=475 PacketId=200 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=32 Src Router=32 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+
+
+[flit:: Flit_ID=476 PacketId=200 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=32 Src Router=32 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+
+
+[flit:: Flit_ID=477 PacketId=200 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=32 Src Router=32 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=478 PacketId=201 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=47 Src Router=47 Dest NI=69 Dest Router=5 Set Time=320500 Width=16 ]
+
+Flit ID = 469 ; Src = 12 ; Dest = 18 ; Path = 12 --> 11 --> 10 --> 18
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=479 PacketId=202 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=37 Src Router=37 Dest NI=104 Dest Router=40 Set Time=321500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=480 PacketId=203 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=36 Src Router=36 Dest NI=126 Dest Router=62 Set Time=321500 Width=16 ]
+
+
+
+[flit:: Flit_ID=481 PacketId=203 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=36 Src Router=36 Dest NI=126 Dest Router=62 Set Time=321500 Width=16 ]
+
+
+
+[flit:: Flit_ID=482 PacketId=203 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=36 Src Router=36 Dest NI=126 Dest Router=62 Set Time=321500 Width=16 ]
+
+
+
+[flit:: Flit_ID=483 PacketId=203 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=36 Src Router=36 Dest NI=126 Dest Router=62 Set Time=321500 Width=16 ]
+
+
+
+[flit:: Flit_ID=484 PacketId=203 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=36 Src Router=36 Dest NI=126 Dest Router=62 Set Time=321500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=485 PacketId=204 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=3 Src Router=3 Dest NI=89 Dest Router=25 Set Time=322500 Width=16 ]
+
+Flit ID = 470 ; Src = 43 ; Dest = 20 ; Path = 43 --> 44 --> 36 --> 28 --> 20
+Flit ID = 471 ; Src = 34 ; Dest = 53 ; Path = 34 --> 35 --> 36 --> 37 --> 45 --> 53
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=486 PacketId=205 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=58 Src Router=58 Dest NI=93 Dest Router=29 Set Time=324500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=487 PacketId=206 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=14 Src Router=14 Dest NI=97 Dest Router=33 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=488 PacketId=206 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=14 Src Router=14 Dest NI=97 Dest Router=33 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=489 PacketId=206 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=14 Src Router=14 Dest NI=97 Dest Router=33 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=490 PacketId=206 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=14 Src Router=14 Dest NI=97 Dest Router=33 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=491 PacketId=206 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=14 Src Router=14 Dest NI=97 Dest Router=33 Set Time=328500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=492 PacketId=207 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=17 Src Router=17 Dest NI=68 Dest Router=4 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=493 PacketId=207 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=17 Src Router=17 Dest NI=68 Dest Router=4 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=494 PacketId=207 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=17 Src Router=17 Dest NI=68 Dest Router=4 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=495 PacketId=207 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=17 Src Router=17 Dest NI=68 Dest Router=4 Set Time=328500 Width=16 ]
+
+
+
+[flit:: Flit_ID=496 PacketId=207 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=17 Src Router=17 Dest NI=68 Dest Router=4 Set Time=328500 Width=16 ]
+
+Flit ID = 472 ; Src = 12 ; Dest = 48 ; Path = 12 --> 11 --> 10 --> 9 --> 8 --> 16 --> 24 --> 32 --> 40 --> 48
+Flit ID = 479 ; Src = 37 ; Dest = 40 ; Path = 37 --> 36 --> 35 --> 34 --> 33 --> 32 --> 40
+Flit ID = 478 ; Src = 47 ; Dest = 5 ; Path = 47 --> 46 --> 45 --> 37 --> 29 --> 21 --> 13 --> 5
+Flit ID = 485 ; Src = 3 ; Dest = 25 ; Path = 3 --> 2 --> 1 --> 9 --> 17 --> 25
+Flit ID = 484 ; Src = 36 ; Dest = 62 ; Path = 36 --> 37 --> 38 --> 46 --> 54 --> 62
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=497 PacketId=208 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=8 Src Router=8 Dest NI=120 Dest Router=56 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=498 PacketId=208 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=8 Src Router=8 Dest NI=120 Dest Router=56 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=499 PacketId=208 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=8 Src Router=8 Dest NI=120 Dest Router=56 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=500 PacketId=208 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=8 Src Router=8 Dest NI=120 Dest Router=56 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=501 PacketId=208 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=8 Src Router=8 Dest NI=120 Dest Router=56 Set Time=332500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=502 PacketId=209 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=61 Src Router=61 Dest NI=90 Dest Router=26 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=503 PacketId=209 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=61 Src Router=61 Dest NI=90 Dest Router=26 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=504 PacketId=209 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=61 Src Router=61 Dest NI=90 Dest Router=26 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=505 PacketId=209 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=61 Src Router=61 Dest NI=90 Dest Router=26 Set Time=332500 Width=16 ]
+
+
+
+[flit:: Flit_ID=506 PacketId=209 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=61 Src Router=61 Dest NI=90 Dest Router=26 Set Time=332500 Width=16 ]
+
+Flit ID = 486 ; Src = 58 ; Dest = 29 ; Path = 58 --> 59 --> 60 --> 61 --> 53 --> 45 --> 37 --> 29
+Flit ID = 477 ; Src = 32 ; Dest = 5 ; Path = 32 --> 33 --> 34 --> 35 --> 36 --> 37 --> 29 --> 21 --> 13 --> 5
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=507 PacketId=210 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=10 Src Router=10 Dest NI=87 Dest Router=23 Set Time=334500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=508 PacketId=211 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=40 Src Router=40 Dest NI=91 Dest Router=27 Set Time=335500 Width=16 ]
+
+Flit ID = 496 ; Src = 17 ; Dest = 4 ; Path = 17 --> 18 --> 19 --> 20 --> 12 --> 4
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=509 PacketId=212 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=14 Src Router=14 Dest NI=80 Dest Router=16 Set Time=338500 Width=16 ]
+
+
+
+[flit:: Flit_ID=510 PacketId=212 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=14 Src Router=14 Dest NI=80 Dest Router=16 Set Time=338500 Width=16 ]
+
+
+
+[flit:: Flit_ID=511 PacketId=212 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=14 Src Router=14 Dest NI=80 Dest Router=16 Set Time=338500 Width=16 ]
+
+
+
+[flit:: Flit_ID=512 PacketId=212 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=14 Src Router=14 Dest NI=80 Dest Router=16 Set Time=338500 Width=16 ]
+
+
+
+[flit:: Flit_ID=513 PacketId=212 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=14 Src Router=14 Dest NI=80 Dest Router=16 Set Time=338500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=514 PacketId=213 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=14 Src Router=14 Dest NI=78 Dest Router=14 Set Time=339500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=515 PacketId=214 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=10 Src Router=10 Dest NI=97 Dest Router=33 Set Time=340500 Width=16 ]
+
+Flit ID = 491 ; Src = 14 ; Dest = 33 ; Path = 14 --> 13 --> 12 --> 11 --> 10 --> 9 --> 17 --> 25 --> 33
+Flit ID = 514 ; Src = 14 ; Dest = 14 ; Path = 14
+Flit ID = 508 ; Src = 40 ; Dest = 27 ; Path = 40 --> 41 --> 42 --> 43 --> 35 --> 27
+Flit ID = 507 ; Src = 10 ; Dest = 23 ; Path = 10 --> 11 --> 12 --> 13 --> 14 --> 15 --> 23
+Flit ID = 501 ; Src = 8 ; Dest = 56 ; Path = 8 --> 16 --> 24 --> 32 --> 40 --> 48 --> 56
+Flit ID = 506 ; Src = 61 ; Dest = 26 ; Path = 61 --> 60 --> 59 --> 58 --> 50 --> 42 --> 34 --> 26
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=516 PacketId=215 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=56 Src Router=56 Dest NI=118 Dest Router=54 Set Time=345500 Width=16 ]
+
+Flit ID = 515 ; Src = 10 ; Dest = 33 ; Path = 10 --> 9 --> 17 --> 25 --> 33
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=517 PacketId=216 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=26 Src Router=26 Dest NI=80 Dest Router=16 Set Time=348500 Width=16 ]
+
+Flit ID = 513 ; Src = 14 ; Dest = 16 ; Path = 14 --> 13 --> 12 --> 11 --> 10 --> 9 --> 8 --> 16
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=518 PacketId=217 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=50 Src Router=50 Dest NI=102 Dest Router=38 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=519 PacketId=217 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=50 Src Router=50 Dest NI=102 Dest Router=38 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=520 PacketId=217 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=50 Src Router=50 Dest NI=102 Dest Router=38 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=521 PacketId=217 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=50 Src Router=50 Dest NI=102 Dest Router=38 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=522 PacketId=217 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=50 Src Router=50 Dest NI=102 Dest Router=38 Set Time=351500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=523 PacketId=218 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=524 PacketId=218 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=525 PacketId=218 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=526 PacketId=218 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=351500 Width=16 ]
+
+
+
+[flit:: Flit_ID=527 PacketId=218 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=46 Src Router=46 Dest NI=126 Dest Router=62 Set Time=351500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=528 PacketId=219 Id=0 Type=3 Size=1 Vnet=0 VC=3 Src NI=19 Src Router=19 Dest NI=119 Dest Router=55 Set Time=351500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=529 PacketId=220 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=0 Src Router=0 Dest NI=90 Dest Router=26 Set Time=351500 Width=16 ]
+
+Flit ID = 517 ; Src = 26 ; Dest = 16 ; Path = 26 --> 25 --> 24 --> 16
+Flit ID = 516 ; Src = 56 ; Dest = 54 ; Path = 56 --> 57 --> 58 --> 59 --> 60 --> 61 --> 62 --> 54
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=530 PacketId=221 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=25 Src Router=25 Dest NI=119 Dest Router=55 Set Time=357500 Width=16 ]
+
+Flit ID = 527 ; Src = 46 ; Dest = 62 ; Path = 46 --> 54 --> 62
+Flit ID = 529 ; Src = 0 ; Dest = 26 ; Path = 0 --> 1 --> 2 --> 10 --> 18 --> 26
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=531 PacketId=222 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=31 Src Router=31 Dest NI=91 Dest Router=27 Set Time=358500 Width=16 ]
+
+Flit ID = 528 ; Src = 19 ; Dest = 55 ; Path = 19 --> 20 --> 21 --> 22 --> 23 --> 31 --> 39 --> 47 --> 55
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=532 PacketId=223 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=49 Src Router=49 Dest NI=66 Dest Router=2 Set Time=361500 Width=16 ]
+
+Flit ID = 522 ; Src = 50 ; Dest = 38 ; Path = 50 --> 51 --> 52 --> 53 --> 54 --> 46 --> 38
+Flit ID = 531 ; Src = 31 ; Dest = 27 ; Path = 31 --> 30 --> 29 --> 28 --> 27
+Flit ID = 530 ; Src = 25 ; Dest = 55 ; Path = 25 --> 26 --> 27 --> 28 --> 29 --> 30 --> 31 --> 39 --> 47 --> 55
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=533 PacketId=224 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=14 Src Router=14 Dest NI=117 Dest Router=53 Set Time=368500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=534 PacketId=225 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=20 Src Router=20 Dest NI=77 Dest Router=13 Set Time=368500 Width=16 ]
+
+Flit ID = 532 ; Src = 49 ; Dest = 2 ; Path = 49 --> 50 --> 42 --> 34 --> 26 --> 18 --> 10 --> 2
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=535 PacketId=226 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=36 Src Router=36 Dest NI=108 Dest Router=44 Set Time=370500 Width=16 ]
+
+Flit ID = 534 ; Src = 20 ; Dest = 13 ; Path = 20 --> 21 --> 13
+Flit ID = 535 ; Src = 36 ; Dest = 44 ; Path = 36 --> 44
+Flit ID = 533 ; Src = 14 ; Dest = 53 ; Path = 14 --> 13 --> 21 --> 29 --> 37 --> 45 --> 53
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=536 PacketId=227 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=44 Src Router=44 Dest NI=99 Dest Router=35 Set Time=376500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=537 PacketId=228 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=49 Src Router=49 Dest NI=84 Dest Router=20 Set Time=377500 Width=16 ]
+
+
+
+[flit:: Flit_ID=538 PacketId=228 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=49 Src Router=49 Dest NI=84 Dest Router=20 Set Time=377500 Width=16 ]
+
+
+
+[flit:: Flit_ID=539 PacketId=228 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=49 Src Router=49 Dest NI=84 Dest Router=20 Set Time=377500 Width=16 ]
+
+
+
+[flit:: Flit_ID=540 PacketId=228 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=49 Src Router=49 Dest NI=84 Dest Router=20 Set Time=377500 Width=16 ]
+
+
+
+[flit:: Flit_ID=541 PacketId=228 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=49 Src Router=49 Dest NI=84 Dest Router=20 Set Time=377500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=542 PacketId=229 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=12 Src Router=12 Dest NI=106 Dest Router=42 Set Time=378500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=543 PacketId=230 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=45 Src Router=45 Dest NI=112 Dest Router=48 Set Time=378500 Width=16 ]
+
+Flit ID = 536 ; Src = 44 ; Dest = 35 ; Path = 44 --> 43 --> 35
+Flit ID = 542 ; Src = 12 ; Dest = 42 ; Path = 12 --> 11 --> 10 --> 18 --> 26 --> 34 --> 42
+Flit ID = 543 ; Src = 45 ; Dest = 48 ; Path = 45 --> 44 --> 43 --> 42 --> 41 --> 40 --> 48
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=544 PacketId=231 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=34 Src Router=34 Dest NI=72 Dest Router=8 Set Time=387500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=545 PacketId=232 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=33 Src Router=33 Dest NI=89 Dest Router=25 Set Time=387500 Width=16 ]
+
+
+
+[flit:: Flit_ID=546 PacketId=232 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=33 Src Router=33 Dest NI=89 Dest Router=25 Set Time=387500 Width=16 ]
+
+
+
+[flit:: Flit_ID=547 PacketId=232 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=33 Src Router=33 Dest NI=89 Dest Router=25 Set Time=387500 Width=16 ]
+
+
+
+[flit:: Flit_ID=548 PacketId=232 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=33 Src Router=33 Dest NI=89 Dest Router=25 Set Time=387500 Width=16 ]
+
+
+
+[flit:: Flit_ID=549 PacketId=232 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=33 Src Router=33 Dest NI=89 Dest Router=25 Set Time=387500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=550 PacketId=233 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=19 Src Router=19 Dest NI=75 Dest Router=11 Set Time=387500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=551 PacketId=234 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=5 Src Router=5 Dest NI=80 Dest Router=16 Set Time=387500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=552 PacketId=235 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=2 Src Router=2 Dest NI=72 Dest Router=8 Set Time=388500 Width=16 ]
+
+
+
+[flit:: Flit_ID=553 PacketId=235 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=2 Src Router=2 Dest NI=72 Dest Router=8 Set Time=388500 Width=16 ]
+
+
+
+[flit:: Flit_ID=554 PacketId=235 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=2 Src Router=2 Dest NI=72 Dest Router=8 Set Time=388500 Width=16 ]
+
+
+
+[flit:: Flit_ID=555 PacketId=235 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=2 Src Router=2 Dest NI=72 Dest Router=8 Set Time=388500 Width=16 ]
+
+
+
+[flit:: Flit_ID=556 PacketId=235 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=2 Src Router=2 Dest NI=72 Dest Router=8 Set Time=388500 Width=16 ]
+
+Flit ID = 541 ; Src = 49 ; Dest = 20 ; Path = 49 --> 50 --> 51 --> 52 --> 44 --> 36 --> 28 --> 20
+Flit ID = 550 ; Src = 19 ; Dest = 11 ; Path = 19 --> 11
+Flit ID = 549 ; Src = 33 ; Dest = 25 ; Path = 33 --> 25
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=557 PacketId=236 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=49 Src Router=49 Dest NI=105 Dest Router=41 Set Time=393500 Width=16 ]
+
+Flit ID = 544 ; Src = 34 ; Dest = 8 ; Path = 34 --> 33 --> 32 --> 24 --> 16 --> 8
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=558 PacketId=237 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=38 Src Router=38 Dest NI=77 Dest Router=13 Set Time=394500 Width=16 ]
+
+Flit ID = 551 ; Src = 5 ; Dest = 16 ; Path = 5 --> 4 --> 3 --> 2 --> 1 --> 0 --> 8 --> 16
+Flit ID = 556 ; Src = 2 ; Dest = 8 ; Path = 2 --> 1 --> 0 --> 8
+Flit ID = 557 ; Src = 49 ; Dest = 41 ; Path = 49 --> 41
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=559 PacketId=238 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=24 Src Router=24 Dest NI=89 Dest Router=25 Set Time=396500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=560 PacketId=239 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=42 Src Router=42 Dest NI=71 Dest Router=7 Set Time=397500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=561 PacketId=240 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=41 Src Router=41 Dest NI=112 Dest Router=48 Set Time=398500 Width=16 ]
+
+Flit ID = 559 ; Src = 24 ; Dest = 25 ; Path = 24 --> 25
+Flit ID = 558 ; Src = 38 ; Dest = 13 ; Path = 38 --> 37 --> 29 --> 21 --> 13
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=562 PacketId=241 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=15 Src Router=15 Dest NI=67 Dest Router=3 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=563 PacketId=241 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=15 Src Router=15 Dest NI=67 Dest Router=3 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=564 PacketId=241 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=15 Src Router=15 Dest NI=67 Dest Router=3 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=565 PacketId=241 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=15 Src Router=15 Dest NI=67 Dest Router=3 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=566 PacketId=241 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=15 Src Router=15 Dest NI=67 Dest Router=3 Set Time=400500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=567 PacketId=242 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=41 Src Router=41 Dest NI=97 Dest Router=33 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=568 PacketId=242 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=41 Src Router=41 Dest NI=97 Dest Router=33 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=569 PacketId=242 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=41 Src Router=41 Dest NI=97 Dest Router=33 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=570 PacketId=242 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=41 Src Router=41 Dest NI=97 Dest Router=33 Set Time=400500 Width=16 ]
+
+
+
+[flit:: Flit_ID=571 PacketId=242 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=41 Src Router=41 Dest NI=97 Dest Router=33 Set Time=400500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=572 PacketId=243 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=32 Src Router=32 Dest NI=79 Dest Router=15 Set Time=401500 Width=16 ]
+
+
+
+[flit:: Flit_ID=573 PacketId=243 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=32 Src Router=32 Dest NI=79 Dest Router=15 Set Time=401500 Width=16 ]
+
+
+
+[flit:: Flit_ID=574 PacketId=243 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=32 Src Router=32 Dest NI=79 Dest Router=15 Set Time=401500 Width=16 ]
+
+
+
+[flit:: Flit_ID=575 PacketId=243 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=32 Src Router=32 Dest NI=79 Dest Router=15 Set Time=401500 Width=16 ]
+
+
+
+[flit:: Flit_ID=576 PacketId=243 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=32 Src Router=32 Dest NI=79 Dest Router=15 Set Time=401500 Width=16 ]
+
+Flit ID = 561 ; Src = 41 ; Dest = 48 ; Path = 41 --> 40 --> 48
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=577 PacketId=244 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=57 Src Router=57 Dest NI=80 Dest Router=16 Set Time=402500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=578 PacketId=245 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=16 Src Router=16 Dest NI=100 Dest Router=36 Set Time=403500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=579 PacketId=246 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=14 Src Router=14 Dest NI=113 Dest Router=49 Set Time=403500 Width=16 ]
+
+Flit ID = 571 ; Src = 41 ; Dest = 33 ; Path = 41 --> 33
+Flit ID = 560 ; Src = 42 ; Dest = 7 ; Path = 42 --> 43 --> 44 --> 45 --> 46 --> 47 --> 39 --> 31 --> 23 --> 15 --> 7
+Flit ID = 566 ; Src = 15 ; Dest = 3 ; Path = 15 --> 14 --> 13 --> 12 --> 11 --> 3
+Flit ID = 577 ; Src = 57 ; Dest = 16 ; Path = 57 --> 56 --> 48 --> 40 --> 32 --> 24 --> 16
+Flit ID = 578 ; Src = 16 ; Dest = 36 ; Path = 16 --> 17 --> 18 --> 19 --> 20 --> 28 --> 36
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=580 PacketId=247 Id=0 Type=3 Size=1 Vnet=1 VC=7 Src NI=53 Src Router=53 Dest NI=102 Dest Router=38 Set Time=412500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=581 PacketId=248 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=51 Src Router=51 Dest NI=100 Dest Router=36 Set Time=413500 Width=16 ]
+
+
+
+[flit:: Flit_ID=582 PacketId=248 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=51 Src Router=51 Dest NI=100 Dest Router=36 Set Time=413500 Width=16 ]
+
+
+
+[flit:: Flit_ID=583 PacketId=248 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=51 Src Router=51 Dest NI=100 Dest Router=36 Set Time=413500 Width=16 ]
+
+
+
+[flit:: Flit_ID=584 PacketId=248 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=51 Src Router=51 Dest NI=100 Dest Router=36 Set Time=413500 Width=16 ]
+
+
+
+[flit:: Flit_ID=585 PacketId=248 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=51 Src Router=51 Dest NI=100 Dest Router=36 Set Time=413500 Width=16 ]
+
+Flit ID = 579 ; Src = 14 ; Dest = 49 ; Path = 14 --> 13 --> 12 --> 11 --> 10 --> 9 --> 17 --> 25 --> 33 --> 41 --> 49
+Flit ID = 576 ; Src = 32 ; Dest = 15 ; Path = 32 --> 33 --> 34 --> 35 --> 36 --> 37 --> 38 --> 39 --> 31 --> 23 --> 15
+Flit ID = 580 ; Src = 53 ; Dest = 38 ; Path = 53 --> 54 --> 46 --> 38
+Flit ID = 585 ; Src = 51 ; Dest = 36 ; Path = 51 --> 52 --> 44 --> 36
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=586 PacketId=249 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=35 Src Router=35 Dest NI=101 Dest Router=37 Set Time=422500 Width=16 ]
+
+
+
+[flit:: Flit_ID=587 PacketId=249 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=35 Src Router=35 Dest NI=101 Dest Router=37 Set Time=422500 Width=16 ]
+
+
+
+[flit:: Flit_ID=588 PacketId=249 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=35 Src Router=35 Dest NI=101 Dest Router=37 Set Time=422500 Width=16 ]
+
+
+
+[flit:: Flit_ID=589 PacketId=249 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=35 Src Router=35 Dest NI=101 Dest Router=37 Set Time=422500 Width=16 ]
+
+
+
+[flit:: Flit_ID=590 PacketId=249 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=35 Src Router=35 Dest NI=101 Dest Router=37 Set Time=422500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=591 PacketId=250 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=35 Src Router=35 Dest NI=98 Dest Router=34 Set Time=424500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=592 PacketId=251 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=5 Src Router=5 Dest NI=115 Dest Router=51 Set Time=425500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=593 PacketId=252 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=8 Src Router=8 Dest NI=73 Dest Router=9 Set Time=426500 Width=16 ]
+
+
+
+[flit:: Flit_ID=594 PacketId=252 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=8 Src Router=8 Dest NI=73 Dest Router=9 Set Time=426500 Width=16 ]
+
+
+
+[flit:: Flit_ID=595 PacketId=252 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=8 Src Router=8 Dest NI=73 Dest Router=9 Set Time=426500 Width=16 ]
+
+
+
+[flit:: Flit_ID=596 PacketId=252 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=8 Src Router=8 Dest NI=73 Dest Router=9 Set Time=426500 Width=16 ]
+
+
+
+[flit:: Flit_ID=597 PacketId=252 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=8 Src Router=8 Dest NI=73 Dest Router=9 Set Time=426500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=598 PacketId=253 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=41 Src Router=41 Dest NI=80 Dest Router=16 Set Time=426500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=599 PacketId=254 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=44 Src Router=44 Dest NI=104 Dest Router=40 Set Time=426500 Width=16 ]
+
+Flit ID = 591 ; Src = 35 ; Dest = 34 ; Path = 35 --> 34
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=600 PacketId=255 Id=0 Type=3 Size=1 Vnet=0 VC=3 Src NI=56 Src Router=56 Dest NI=105 Dest Router=41 Set Time=428500 Width=16 ]
+
+Flit ID = 590 ; Src = 35 ; Dest = 37 ; Path = 35 --> 36 --> 37
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=601 PacketId=256 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=54 Src Router=54 Dest NI=67 Dest Router=3 Set Time=429500 Width=16 ]
+
+
+
+[flit:: Flit_ID=602 PacketId=256 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=54 Src Router=54 Dest NI=67 Dest Router=3 Set Time=429500 Width=16 ]
+
+
+
+[flit:: Flit_ID=603 PacketId=256 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=54 Src Router=54 Dest NI=67 Dest Router=3 Set Time=429500 Width=16 ]
+
+
+
+[flit:: Flit_ID=604 PacketId=256 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=54 Src Router=54 Dest NI=67 Dest Router=3 Set Time=429500 Width=16 ]
+
+
+
+[flit:: Flit_ID=605 PacketId=256 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=54 Src Router=54 Dest NI=67 Dest Router=3 Set Time=429500 Width=16 ]
+
+Flit ID = 597 ; Src = 8 ; Dest = 9 ; Path = 8 --> 9
+Flit ID = 598 ; Src = 41 ; Dest = 16 ; Path = 41 --> 40 --> 32 --> 24 --> 16
+Flit ID = 599 ; Src = 44 ; Dest = 40 ; Path = 44 --> 43 --> 42 --> 41 --> 40
+Flit ID = 600 ; Src = 56 ; Dest = 41 ; Path = 56 --> 57 --> 49 --> 41
+Flit ID = 592 ; Src = 5 ; Dest = 51 ; Path = 5 --> 4 --> 3 --> 11 --> 19 --> 27 --> 35 --> 43 --> 51
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=606 PacketId=257 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=6 Src Router=6 Dest NI=82 Dest Router=18 Set Time=436500 Width=16 ]
+
+
+
+[flit:: Flit_ID=607 PacketId=257 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=6 Src Router=6 Dest NI=82 Dest Router=18 Set Time=436500 Width=16 ]
+
+
+
+[flit:: Flit_ID=608 PacketId=257 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=6 Src Router=6 Dest NI=82 Dest Router=18 Set Time=436500 Width=16 ]
+
+
+
+[flit:: Flit_ID=609 PacketId=257 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=6 Src Router=6 Dest NI=82 Dest Router=18 Set Time=436500 Width=16 ]
+
+
+
+[flit:: Flit_ID=610 PacketId=257 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=6 Src Router=6 Dest NI=82 Dest Router=18 Set Time=436500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=611 PacketId=258 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=52 Src Router=52 Dest NI=72 Dest Router=8 Set Time=437500 Width=16 ]
+
+
+
+[flit:: Flit_ID=612 PacketId=258 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=52 Src Router=52 Dest NI=72 Dest Router=8 Set Time=437500 Width=16 ]
+
+
+
+[flit:: Flit_ID=613 PacketId=258 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=52 Src Router=52 Dest NI=72 Dest Router=8 Set Time=437500 Width=16 ]
+
+
+
+[flit:: Flit_ID=614 PacketId=258 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=52 Src Router=52 Dest NI=72 Dest Router=8 Set Time=437500 Width=16 ]
+
+
+
+[flit:: Flit_ID=615 PacketId=258 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=52 Src Router=52 Dest NI=72 Dest Router=8 Set Time=437500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=616 PacketId=259 Id=0 Type=3 Size=1 Vnet=0 VC=3 Src NI=12 Src Router=12 Dest NI=67 Dest Router=3 Set Time=437500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=617 PacketId=260 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=58 Src Router=58 Dest NI=86 Dest Router=22 Set Time=439500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=618 PacketId=261 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=24 Src Router=24 Dest NI=79 Dest Router=15 Set Time=440500 Width=16 ]
+
+Flit ID = 616 ; Src = 12 ; Dest = 3 ; Path = 12 --> 11 --> 3
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=619 PacketId=262 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=13 Src Router=13 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=620 PacketId=263 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=39 Src Router=39 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+
+
+[flit:: Flit_ID=621 PacketId=263 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=39 Src Router=39 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+
+
+[flit:: Flit_ID=622 PacketId=263 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=39 Src Router=39 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+
+
+[flit:: Flit_ID=623 PacketId=263 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=39 Src Router=39 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+
+
+[flit:: Flit_ID=624 PacketId=263 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=39 Src Router=39 Dest NI=78 Dest Router=14 Set Time=442500 Width=16 ]
+
+Flit ID = 605 ; Src = 54 ; Dest = 3 ; Path = 54 --> 53 --> 52 --> 51 --> 43 --> 35 --> 27 --> 19 --> 11 --> 3
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=625 PacketId=264 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=63 Src Router=63 Dest NI=72 Dest Router=8 Set Time=443500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=626 PacketId=265 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=12 Src Router=12 Dest NI=75 Dest Router=11 Set Time=443500 Width=16 ]
+
+Flit ID = 619 ; Src = 13 ; Dest = 14 ; Path = 13 --> 14
+Flit ID = 626 ; Src = 12 ; Dest = 11 ; Path = 12 --> 11
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=627 PacketId=266 Id=0 Type=0 Size=5 Vnet=2 VC=11 Src NI=19 Src Router=19 Dest NI=122 Dest Router=58 Set Time=446500 Width=16 ]
+
+
+
+[flit:: Flit_ID=628 PacketId=266 Id=1 Type=1 Size=5 Vnet=2 VC=11 Src NI=19 Src Router=19 Dest NI=122 Dest Router=58 Set Time=446500 Width=16 ]
+
+
+
+[flit:: Flit_ID=629 PacketId=266 Id=2 Type=1 Size=5 Vnet=2 VC=11 Src NI=19 Src Router=19 Dest NI=122 Dest Router=58 Set Time=446500 Width=16 ]
+
+
+
+[flit:: Flit_ID=630 PacketId=266 Id=3 Type=1 Size=5 Vnet=2 VC=11 Src NI=19 Src Router=19 Dest NI=122 Dest Router=58 Set Time=446500 Width=16 ]
+
+
+
+[flit:: Flit_ID=631 PacketId=266 Id=4 Type=2 Size=5 Vnet=2 VC=11 Src NI=19 Src Router=19 Dest NI=122 Dest Router=58 Set Time=446500 Width=16 ]
+
+Flit ID = 610 ; Src = 6 ; Dest = 18 ; Path = 6 --> 5 --> 4 --> 3 --> 2 --> 10 --> 18
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=632 PacketId=267 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=19 Src Router=19 Dest NI=107 Dest Router=43 Set Time=447500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=633 PacketId=268 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=18 Src Router=18 Dest NI=66 Dest Router=2 Set Time=447500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=634 PacketId=269 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=23 Src Router=23 Dest NI=67 Dest Router=3 Set Time=448500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=635 PacketId=270 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=52 Src Router=52 Dest NI=77 Dest Router=13 Set Time=449500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=636 PacketId=271 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=0 Src Router=0 Dest NI=125 Dest Router=61 Set Time=449500 Width=16 ]
+
+Flit ID = 617 ; Src = 58 ; Dest = 22 ; Path = 58 --> 59 --> 60 --> 61 --> 62 --> 54 --> 46 --> 38 --> 30 --> 22
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=637 PacketId=272 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=29 Src Router=29 Dest NI=89 Dest Router=25 Set Time=450500 Width=16 ]
+
+
+
+[flit:: Flit_ID=638 PacketId=272 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=29 Src Router=29 Dest NI=89 Dest Router=25 Set Time=450500 Width=16 ]
+
+
+
+[flit:: Flit_ID=639 PacketId=272 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=29 Src Router=29 Dest NI=89 Dest Router=25 Set Time=450500 Width=16 ]
+
+
+
+[flit:: Flit_ID=640 PacketId=272 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=29 Src Router=29 Dest NI=89 Dest Router=25 Set Time=450500 Width=16 ]
+
+
+
+[flit:: Flit_ID=641 PacketId=272 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=29 Src Router=29 Dest NI=89 Dest Router=25 Set Time=450500 Width=16 ]
+
+Flit ID = 624 ; Src = 39 ; Dest = 14 ; Path = 39 --> 38 --> 30 --> 22 --> 14
+Flit ID = 615 ; Src = 52 ; Dest = 8 ; Path = 52 --> 51 --> 50 --> 49 --> 48 --> 40 --> 32 --> 24 --> 16 --> 8
+Flit ID = 633 ; Src = 18 ; Dest = 2 ; Path = 18 --> 10 --> 2
+Flit ID = 618 ; Src = 24 ; Dest = 15 ; Path = 24 --> 25 --> 26 --> 27 --> 28 --> 29 --> 30 --> 31 --> 23 --> 15
+Flit ID = 632 ; Src = 19 ; Dest = 43 ; Path = 19 --> 27 --> 35 --> 43
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=642 PacketId=273 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=47 Src Router=47 Dest NI=84 Dest Router=20 Set Time=453500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=643 PacketId=274 Id=0 Type=3 Size=1 Vnet=1 VC=7 Src NI=5 Src Router=5 Dest NI=127 Dest Router=63 Set Time=455500 Width=16 ]
+
+Flit ID = 634 ; Src = 23 ; Dest = 3 ; Path = 23 --> 22 --> 21 --> 20 --> 19 --> 11 --> 3
+Flit ID = 631 ; Src = 19 ; Dest = 58 ; Path = 19 --> 18 --> 26 --> 34 --> 42 --> 50 --> 58
+Flit ID = 635 ; Src = 52 ; Dest = 13 ; Path = 52 --> 53 --> 45 --> 37 --> 29 --> 21 --> 13
+Flit ID = 625 ; Src = 63 ; Dest = 8 ; Path = 63 --> 62 --> 61 --> 60 --> 59 --> 58 --> 57 --> 56 --> 48 --> 40 --> 32 --> 24 --> 16 --> 8
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=644 PacketId=275 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=4 Src Router=4 Dest NI=102 Dest Router=38 Set Time=458500 Width=16 ]
+
+
+
+[flit:: Flit_ID=645 PacketId=275 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=4 Src Router=4 Dest NI=102 Dest Router=38 Set Time=458500 Width=16 ]
+
+
+
+[flit:: Flit_ID=646 PacketId=275 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=4 Src Router=4 Dest NI=102 Dest Router=38 Set Time=458500 Width=16 ]
+
+
+
+[flit:: Flit_ID=647 PacketId=275 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=4 Src Router=4 Dest NI=102 Dest Router=38 Set Time=458500 Width=16 ]
+
+
+
+[flit:: Flit_ID=648 PacketId=275 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=4 Src Router=4 Dest NI=102 Dest Router=38 Set Time=458500 Width=16 ]
+
+Flit ID = 641 ; Src = 29 ; Dest = 25 ; Path = 29 --> 28 --> 27 --> 26 --> 25
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=649 PacketId=276 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=44 Src Router=44 Dest NI=77 Dest Router=13 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=650 PacketId=276 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=44 Src Router=44 Dest NI=77 Dest Router=13 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=651 PacketId=276 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=44 Src Router=44 Dest NI=77 Dest Router=13 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=652 PacketId=276 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=44 Src Router=44 Dest NI=77 Dest Router=13 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=653 PacketId=276 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=44 Src Router=44 Dest NI=77 Dest Router=13 Set Time=459500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=654 PacketId=277 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=16 Src Router=16 Dest NI=123 Dest Router=59 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=655 PacketId=277 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=16 Src Router=16 Dest NI=123 Dest Router=59 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=656 PacketId=277 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=16 Src Router=16 Dest NI=123 Dest Router=59 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=657 PacketId=277 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=16 Src Router=16 Dest NI=123 Dest Router=59 Set Time=459500 Width=16 ]
+
+
+
+[flit:: Flit_ID=658 PacketId=277 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=16 Src Router=16 Dest NI=123 Dest Router=59 Set Time=459500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=659 PacketId=278 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=13 Src Router=13 Dest NI=81 Dest Router=17 Set Time=460500 Width=16 ]
+
+
+
+[flit:: Flit_ID=660 PacketId=278 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=13 Src Router=13 Dest NI=81 Dest Router=17 Set Time=460500 Width=16 ]
+
+
+
+[flit:: Flit_ID=661 PacketId=278 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=13 Src Router=13 Dest NI=81 Dest Router=17 Set Time=460500 Width=16 ]
+
+
+
+[flit:: Flit_ID=662 PacketId=278 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=13 Src Router=13 Dest NI=81 Dest Router=17 Set Time=460500 Width=16 ]
+
+
+
+[flit:: Flit_ID=663 PacketId=278 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=13 Src Router=13 Dest NI=81 Dest Router=17 Set Time=460500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=664 PacketId=279 Id=0 Type=3 Size=1 Vnet=0 VC=3 Src NI=39 Src Router=39 Dest NI=102 Dest Router=38 Set Time=460500 Width=16 ]
+
+Flit ID = 642 ; Src = 47 ; Dest = 20 ; Path = 47 --> 46 --> 45 --> 44 --> 36 --> 28 --> 20
+Flit ID = 636 ; Src = 0 ; Dest = 61 ; Path = 0 --> 1 --> 2 --> 3 --> 4 --> 5 --> 13 --> 21 --> 29 --> 37 --> 45 --> 53 --> 61
+Flit ID = 664 ; Src = 39 ; Dest = 38 ; Path = 39 --> 38
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=665 PacketId=280 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=60 Src Router=60 Dest NI=81 Dest Router=17 Set Time=464500 Width=16 ]
+
+Flit ID = 643 ; Src = 5 ; Dest = 63 ; Path = 5 --> 6 --> 7 --> 15 --> 23 --> 31 --> 39 --> 47 --> 55 --> 63
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=666 PacketId=281 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=54 Src Router=54 Dest NI=95 Dest Router=31 Set Time=466500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=667 PacketId=282 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=467500 Width=16 ]
+
+
+
+[flit:: Flit_ID=668 PacketId=282 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=467500 Width=16 ]
+
+
+
+[flit:: Flit_ID=669 PacketId=282 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=467500 Width=16 ]
+
+
+
+[flit:: Flit_ID=670 PacketId=282 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=467500 Width=16 ]
+
+
+
+[flit:: Flit_ID=671 PacketId=282 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=63 Src Router=63 Dest NI=84 Dest Router=20 Set Time=467500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=672 PacketId=283 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=50 Src Router=50 Dest NI=76 Dest Router=12 Set Time=467500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=673 PacketId=284 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=57 Src Router=57 Dest NI=82 Dest Router=18 Set Time=468500 Width=16 ]
+
+Flit ID = 653 ; Src = 44 ; Dest = 13 ; Path = 44 --> 45 --> 37 --> 29 --> 21 --> 13
+Flit ID = 648 ; Src = 4 ; Dest = 38 ; Path = 4 --> 5 --> 6 --> 14 --> 22 --> 30 --> 38
+Flit ID = 663 ; Src = 13 ; Dest = 17 ; Path = 13 --> 12 --> 11 --> 10 --> 9 --> 17
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=674 PacketId=285 Id=0 Type=3 Size=1 Vnet=1 VC=4 Src NI=51 Src Router=51 Dest NI=99 Dest Router=35 Set Time=471500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=675 PacketId=286 Id=0 Type=0 Size=5 Vnet=2 VC=10 Src NI=49 Src Router=49 Dest NI=116 Dest Router=52 Set Time=471500 Width=16 ]
+
+
+
+[flit:: Flit_ID=676 PacketId=286 Id=1 Type=1 Size=5 Vnet=2 VC=10 Src NI=49 Src Router=49 Dest NI=116 Dest Router=52 Set Time=471500 Width=16 ]
+
+
+
+[flit:: Flit_ID=677 PacketId=286 Id=2 Type=1 Size=5 Vnet=2 VC=10 Src NI=49 Src Router=49 Dest NI=116 Dest Router=52 Set Time=471500 Width=16 ]
+
+
+
+[flit:: Flit_ID=678 PacketId=286 Id=3 Type=1 Size=5 Vnet=2 VC=10 Src NI=49 Src Router=49 Dest NI=116 Dest Router=52 Set Time=471500 Width=16 ]
+
+
+
+[flit:: Flit_ID=679 PacketId=286 Id=4 Type=2 Size=5 Vnet=2 VC=10 Src NI=49 Src Router=49 Dest NI=116 Dest Router=52 Set Time=471500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=680 PacketId=287 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=9 Src Router=9 Dest NI=109 Dest Router=45 Set Time=471500 Width=16 ]
+
+Flit ID = 658 ; Src = 16 ; Dest = 59 ; Path = 16 --> 17 --> 18 --> 19 --> 27 --> 35 --> 43 --> 51 --> 59
+Flit ID = 666 ; Src = 54 ; Dest = 31 ; Path = 54 --> 55 --> 47 --> 39 --> 31
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=681 PacketId=288 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=5 Src Router=5 Dest NI=126 Dest Router=62 Set Time=473500 Width=16 ]
+
+
+
+[flit:: Flit_ID=682 PacketId=288 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=5 Src Router=5 Dest NI=126 Dest Router=62 Set Time=473500 Width=16 ]
+
+
+
+[flit:: Flit_ID=683 PacketId=288 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=5 Src Router=5 Dest NI=126 Dest Router=62 Set Time=473500 Width=16 ]
+
+
+
+[flit:: Flit_ID=684 PacketId=288 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=5 Src Router=5 Dest NI=126 Dest Router=62 Set Time=473500 Width=16 ]
+
+
+
+[flit:: Flit_ID=685 PacketId=288 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=5 Src Router=5 Dest NI=126 Dest Router=62 Set Time=473500 Width=16 ]
+
+Flit ID = 665 ; Src = 60 ; Dest = 17 ; Path = 60 --> 59 --> 58 --> 57 --> 49 --> 41 --> 33 --> 25 --> 17
+Flit ID = 674 ; Src = 51 ; Dest = 35 ; Path = 51 --> 43 --> 35
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=686 PacketId=289 Id=0 Type=3 Size=1 Vnet=1 VC=7 Src NI=10 Src Router=10 Dest NI=99 Dest Router=35 Set Time=475500 Width=16 ]
+
+Flit ID = 673 ; Src = 57 ; Dest = 18 ; Path = 57 --> 58 --> 50 --> 42 --> 34 --> 26 --> 18
+Flit ID = 672 ; Src = 50 ; Dest = 12 ; Path = 50 --> 51 --> 52 --> 44 --> 36 --> 28 --> 20 --> 12
+Flit ID = 679 ; Src = 49 ; Dest = 52 ; Path = 49 --> 50 --> 51 --> 52
+Flit ID = 671 ; Src = 63 ; Dest = 20 ; Path = 63 --> 62 --> 61 --> 60 --> 52 --> 44 --> 36 --> 28 --> 20
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=687 PacketId=290 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=41 Src Router=41 Dest NI=116 Dest Router=52 Set Time=480500 Width=16 ]
+
+Flit ID = 680 ; Src = 9 ; Dest = 45 ; Path = 9 --> 10 --> 11 --> 12 --> 13 --> 21 --> 29 --> 37 --> 45
+Flit ID = 686 ; Src = 10 ; Dest = 35 ; Path = 10 --> 11 --> 19 --> 27 --> 35
+Flit ID = 685 ; Src = 5 ; Dest = 62 ; Path = 5 --> 6 --> 14 --> 22 --> 30 --> 38 --> 46 --> 54 --> 62
+Flit ID = 687 ; Src = 41 ; Dest = 52 ; Path = 41 --> 42 --> 43 --> 44 --> 52
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=688 PacketId=291 Id=0 Type=0 Size=5 Vnet=2 VC=8 Src NI=56 Src Router=56 Dest NI=91 Dest Router=27 Set Time=487500 Width=16 ]
+
+
+
+[flit:: Flit_ID=689 PacketId=291 Id=1 Type=1 Size=5 Vnet=2 VC=8 Src NI=56 Src Router=56 Dest NI=91 Dest Router=27 Set Time=487500 Width=16 ]
+
+
+
+[flit:: Flit_ID=690 PacketId=291 Id=2 Type=1 Size=5 Vnet=2 VC=8 Src NI=56 Src Router=56 Dest NI=91 Dest Router=27 Set Time=487500 Width=16 ]
+
+
+
+[flit:: Flit_ID=691 PacketId=291 Id=3 Type=1 Size=5 Vnet=2 VC=8 Src NI=56 Src Router=56 Dest NI=91 Dest Router=27 Set Time=487500 Width=16 ]
+
+
+
+[flit:: Flit_ID=692 PacketId=291 Id=4 Type=2 Size=5 Vnet=2 VC=8 Src NI=56 Src Router=56 Dest NI=91 Dest Router=27 Set Time=487500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=693 PacketId=292 Id=0 Type=3 Size=1 Vnet=1 VC=6 Src NI=40 Src Router=40 Dest NI=74 Dest Router=10 Set Time=488500 Width=16 ]
+
+
+Message type:Data
+
+
+
+[flit:: Flit_ID=694 PacketId=293 Id=0 Type=0 Size=5 Vnet=2 VC=9 Src NI=62 Src Router=62 Dest NI=114 Dest Router=50 Set Time=489500 Width=16 ]
+
+
+
+[flit:: Flit_ID=695 PacketId=293 Id=1 Type=1 Size=5 Vnet=2 VC=9 Src NI=62 Src Router=62 Dest NI=114 Dest Router=50 Set Time=489500 Width=16 ]
+
+
+
+[flit:: Flit_ID=696 PacketId=293 Id=2 Type=1 Size=5 Vnet=2 VC=9 Src NI=62 Src Router=62 Dest NI=114 Dest Router=50 Set Time=489500 Width=16 ]
+
+
+
+[flit:: Flit_ID=697 PacketId=293 Id=3 Type=1 Size=5 Vnet=2 VC=9 Src NI=62 Src Router=62 Dest NI=114 Dest Router=50 Set Time=489500 Width=16 ]
+
+
+
+[flit:: Flit_ID=698 PacketId=293 Id=4 Type=2 Size=5 Vnet=2 VC=9 Src NI=62 Src Router=62 Dest NI=114 Dest Router=50 Set Time=489500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=699 PacketId=294 Id=0 Type=3 Size=1 Vnet=0 VC=0 Src NI=32 Src Router=32 Dest NI=111 Dest Router=47 Set Time=492500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=700 PacketId=295 Id=0 Type=3 Size=1 Vnet=1 VC=5 Src NI=44 Src Router=44 Dest NI=100 Dest Router=36 Set Time=493500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=701 PacketId=296 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=48 Src Router=48 Dest NI=70 Dest Router=6 Set Time=494500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=702 PacketId=297 Id=0 Type=3 Size=1 Vnet=1 VC=7 Src NI=56 Src Router=56 Dest NI=97 Dest Router=33 Set Time=495500 Width=16 ]
+
+Flit ID = 693 ; Src = 40 ; Dest = 10 ; Path = 40 --> 41 --> 42 --> 34 --> 26 --> 18 --> 10
+Flit ID = 700 ; Src = 44 ; Dest = 36 ; Path = 44 --> 36
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=703 PacketId=298 Id=0 Type=3 Size=1 Vnet=0 VC=2 Src NI=45 Src Router=45 Dest NI=95 Dest Router=31 Set Time=497500 Width=16 ]
+
+
+Message type:Control
+
+
+
+[flit:: Flit_ID=704 PacketId=299 Id=0 Type=3 Size=1 Vnet=0 VC=1 Src NI=52 Src Router=52 Dest NI=68 Dest Router=4 Set Time=498500 Width=16 ]
+
+Flit ID = 698 ; Src = 62 ; Dest = 50 ; Path = 62 --> 61 --> 60 --> 59 --> 58 --> 50
+Flit ID = 692 ; Src = 56 ; Dest = 27 ; Path = 56 --> 57 --> 58 --> 59 --> 51 --> 43 --> 35 --> 27
+Exiting @ tick 500000 because Network Tester completed simCycles

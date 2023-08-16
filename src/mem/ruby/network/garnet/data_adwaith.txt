@@ -1,0 +1,77 @@
+
+
+trust : 
+
+system.ruby.network.average_packet_latency 10466.578474                       
+system.ruby.network.average_packet_network_latency  9020.231207                      
+system.ruby.network.average_packet_queueing_latency  1446.347268
+
+system.ruby.network.packets_injected::total       842593                  
+system.ruby.network.packets_received::total       804302 
+
+without trust
+
+system.ruby.network.average_packet_latency 10981.474089                       (Unspecified)
+system.ruby.network.average_packet_network_latency  9156.858010                       (Unspecified)
+system.ruby.network.average_packet_queueing_latency  1824.616080
+
+system.ruby.network.packets_injected::total       859655                       
+system.ruby.network.packets_received::total       799124
+
+
+base line 
+
+
+
+
+system.ruby.network.average_packet_latency  9200.553001                       
+system.ruby.network.average_packet_network_latency  8397.633456                       (Unspecified)
+system.ruby.network.average_packet_queueing_latency   802.919545
+
+system.ruby.network.packets_injected::total       805613                      
+system.ruby.network.packets_received::total       805605  
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+with trust :
+
+
+system.ruby.network.average_packet_latency 10450.020102                      
+system.ruby.network.average_packet_network_latency  9016.407108                  
+system.ruby.network.average_packet_queueing_latency  1433.612994 
+
+system.ruby.network.packets_injected::total       851291
+system.ruby.network.packets_received::total       813367 
+
+system.ruby.network.packet_network_latency |  2978054000                       |  3368485500                       |   987108500   
+system.ruby.network.packet_queueing_latency |   713421000                       |   282819000                       |   169813500
+
+
+without trust :
+
+system.ruby.network.average_packet_latency 10968.760654                       
+system.ruby.network.average_packet_network_latency  9147.041829                       
+system.ruby.network.average_packet_queueing_latency  1821.718825
+
+system.ruby.network.packets_injected::total       858132                    
+system.ruby.network.packets_received::total       797824 
+
+system.ruby.network.packet_network_latency |  3015307000                       |  3279858500                       |  1002564000 
+system.ruby.network.packet_queueing_latency |   879384000                       |   338686500                       |   235340500 
+
+
+base line system : 
+
+system.ruby.network.average_packet_latency  9206.889332                      
+system.ruby.network.average_packet_network_latency  8403.346457                       
+system.ruby.network.average_packet_queueing_latency   803.542875
+
+system.ruby.network.packets_injected::total       802376                    
+system.ruby.network.packets_received::total       802371
+
+
+system.ruby.network.packet_network_latency |  2674162500                       |  3194544500                       |   873894500                    
+system.ruby.network.packet_queueing_latency |   400259000                       |   186435500                       |    58045000
