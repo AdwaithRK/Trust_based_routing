@@ -137,7 +137,7 @@ InputUnit::wakeup()
 
 
 
-            if (m_router->get_id() == 5 || m_router->get_id() == 54 || m_router -> get_id() == 33 )
+            if (m_router->get_id() == 5 || m_router->get_id() == 54 || m_router -> get_id() == 33 || m_router -> get_id() == 44)
             {
                 MsgPtr temp = t_flit->get_msg_ptr();
 
@@ -398,7 +398,7 @@ bool InputUnit::shouldReroute(){
 
     int k = rand() % 100;
 
-    if( k >= 0 && k <= 50) return true;
+    if( k >= 0 && k <= 60) return true;
     return false;
 }
 
