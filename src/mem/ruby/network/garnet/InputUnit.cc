@@ -162,8 +162,29 @@ InputUnit::wakeup()
                         RouteInfo temp = t_flit->get_route();
                         MsgPtr h = t_flit->get_msg_ptr();
                         cout << "redirected flag value : " <<  h->setRedirected() << "\n\n";
+
+
+                        MachineID m;
+
+                        if(destni>= NI_boundary2 && destni<NI_boundary3 ){
+                            t_route.dest_ni = new_dest_router + NI_boundary2; // dest is directory so adding NIboundary2
+                            m.type = string_to_MachineType("Directory");
+                        }
+                        //else if(MachineType_to_string(m.getType())=="L2Cache"){
+                        if(destni>=NI_boundary1 &&destni<NI_boundary2){
+                            t_route.dest_ni = new_dest_router + NI_boundary1; // dest L2Cache so adding NIboundary1
+                            m.type = string_to_MachineType("L2Cache");
+                        }
+                        else{
+                            std::cout<<"236 InputUnit.cc Destination nor Directory nor L2Cache"; // shouldn't happen
+                        }
+
                         temp.dest_router = new_dest_router;
                         t_flit->set_route(temp);
+                        new_dest.add(m);
+                        temp.net_dest = new_dest;
+                        t_flit->set_route(temp);
+                             
                     }
                 }
             }
